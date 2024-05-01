@@ -117658,7 +117658,7 @@
   {
     "source": {
       "x": 2509,
-      "y": 3637,
+      "y": 3636,
       "plane": 0
     },
     "destination": {
@@ -117686,7 +117686,7 @@
     },
     "destination": {
       "x": 2509,
-      "y": 3637,
+      "y": 3636,
       "plane": 0
     },
     "requirements": {
@@ -124312,7 +124312,51 @@
       "id": 50750,
       "action": "Exit"
     }
+  },
+	  {
+  "source": {
+    "x": 2515,
+    "y": 10005,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2515,
+    "y": 10008,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 4485,
+    "action": "Climb"
   }
+},
+{
+  "source": {
+    "x": 2515,
+    "y": 10008,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2515,
+    "y": 10005,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 4413,
+    "action": "Climb"
+  }
+}
 ]
 
 
