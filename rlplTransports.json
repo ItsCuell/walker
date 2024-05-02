@@ -8537,8 +8537,8 @@
   },
   {
     "source": {
-      "x": 3141,
-      "y": 3627,
+      "x": 3147,
+      "y": 3639,
       "plane": 0
     },
     "destination": {
@@ -8554,7 +8554,10 @@
     "type": "OBJECT",
     "data": {
       "id": 30386,
-      "action": "Enter"
+      "action": "Enter",
+	  "dialog": [
+        "Yes"
+      ]
     }
   },
   {
