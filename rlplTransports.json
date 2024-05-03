@@ -124359,6 +124359,50 @@
     "id": 4413,
     "action": "Climb"
   }
+},
+	{
+  "source": {
+    "x": 2412,
+    "y": 3060,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2404,
+    "y": 9415,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 30176,
+    "action": "Enter"
+  }
+},
+{
+  "source": {
+    "x": 2404,
+    "y": 9415,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2412,
+    "y": 3060,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 534,
+    "action": "Use"
+  }
 }
 ]
 
