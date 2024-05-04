@@ -124206,6 +124206,12 @@
       "plane": 0
     },
     "requirements": {
+	"skillRequirements": [
+	{
+          "skill": "AGILITY",
+          "level": 47
+    }
+	  ],
       "miscRequirements": {
         "member": true
       }
@@ -124237,6 +124243,12 @@
           ]
         }
       ],
+	  	  "skillRequirements": [
+	    {
+          "skill": "AGILITY",
+          "level": 47
+        }
+	  ],
       "miscRequirements": {
         "member": true
       }
