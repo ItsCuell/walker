@@ -107923,7 +107923,7 @@
       "plane": 0
     },
     "destination": {
-      "x": 2876,
+      "x": 2866,
       "y": 2952,
       "plane": 0
     },
@@ -107932,13 +107932,10 @@
         "member": false
       }
     },
-    "type": "OBJECT",
+    "type": "NPC",
     "data": {
-      "id": 2216,
-      "action": "Climb over",
-      "dialog": [
-        "Yes, I am very nimble and agile!"
-      ]
+      "id": 8696,
+      "action": "Follow"
     }
   },
   {
@@ -124403,9 +124400,49 @@
     "id": 534,
     "action": "Use"
   }
+},
+{
+  "source": {
+    "x": 2280,
+    "y": 10022,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2280,
+    "y": 10016,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 538,
+    "action": "Use"
+  }
+},
+{
+  "source": {
+    "x": 2280,
+    "y": 10016,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2280,
+    "y": 10022,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 537,
+    "action": "Enter"
+  }
 }
 ]
-
-
-
-
