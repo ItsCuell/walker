@@ -124456,5 +124456,93 @@
     "id": 537,
     "action": "Enter"
   }
+},
+	{
+  "source": {
+    "x": 2838,
+    "y": 9388,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2826,
+    "y": 2998,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 23584,
+    "action": "Climb-up"
+  }
+},
+{
+  "source": {
+    "x": 2825,
+    "y": 2998,
+    "plane": 0
+  },
+  "destination": {
+    "x": 2838,
+    "y": 9387,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 23586,
+    "action": "Climb-down"
+  }
+},
+{
+  "source": {
+    "x": 1270,
+    "y": 10175,
+    "plane": 0
+  },
+  "destination": {
+    "x": 1270,
+    "y": 10170,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 34515,
+    "action": "Jump"
+  }
+},
+{
+  "source": {
+    "x": 1270,
+    "y": 10170,
+    "plane": 0
+  },
+  "destination": {
+    "x": 1270,
+    "y": 10175,
+    "plane": 0
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "id": 34515,
+    "action": "Jump"
+  }
 }
 ]
