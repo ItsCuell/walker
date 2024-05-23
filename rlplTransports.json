@@ -78948,8 +78948,8 @@
     },
     "type": "OBJECT",
     "data": {
-      "id": 3433,
-      "action": "Climb-down"
+      "id": [3432,3433],
+      "action": ["Open","Climb-down"]
     }
   },
   {
