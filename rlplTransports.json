@@ -120083,6 +120083,14 @@
       "plane": 0
     },
     "requirements": {
+		"questRequirements": [
+        {
+          "quest": "THE_GIANT_DWARF",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -124719,6 +124727,50 @@
     "data": {
       "id": 17393,
       "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1556,
+      "y": 3046,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1559,
+      "y": 3046,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 51644,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1556,
+      "y": 3045,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1556,
+      "y": 3046,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 51643,
+      "action": "Climb-up"
     }
   }
 ]
