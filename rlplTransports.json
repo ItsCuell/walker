@@ -110462,7 +110462,7 @@
     },
     "type": "NPC",
     "data": {
-      "id": 10727,
+      "name": "Veos",
       "action": "Port Sarim"
     }
   },
