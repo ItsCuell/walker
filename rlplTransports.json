@@ -124772,5 +124772,61 @@
       "id": 51643,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 3713,
+      "y": 3830,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3715,
+      "y": 3815,
+      "plane": 0
+    },
+    "requirements": {
+		"skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 70
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31482,
+      "action": "Climb through"
+    }
+  },
+  {
+    "source": {
+      "x": 3715,
+      "y": 3815,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3713,
+      "y": 3830,
+      "plane": 0
+    },
+    "requirements": {
+		"skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 70
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31482,
+      "action": "Climb through"
+    }
   }
 ]
