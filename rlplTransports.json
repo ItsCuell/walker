@@ -124828,5 +124828,81 @@
       "id": 31481,
       "action": "Climb through"
     }
+  },
+  {
+    "source": {
+      "x": 3728,
+      "y": 3302,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3738,
+      "y": 9703,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 32637,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3738,
+      "y": 9703,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3728,
+      "y": 3302,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 32638,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3671,
+      "y": 3544,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3661,
+      "y": 3277,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 10000,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 32601,
+      "action": "Travel"
+    }
   }
 ]
