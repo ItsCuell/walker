@@ -34547,28 +34547,6 @@
   {
     "source": {
       "x": 2444,
-      "y": 3434,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2445,
-      "y": 3433,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16675,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 2444,
       "y": 3435,
       "plane": 0
     },
