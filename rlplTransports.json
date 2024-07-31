@@ -81973,7 +81973,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -82001,7 +82001,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -104248,6 +104248,14 @@
           "level": 35
         }
       ],
+      "questRequirements": [
+        {
+          "quest": "THE_GRAND_TREE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -104274,6 +104282,14 @@
         {
           "skill": "AGILITY",
           "level": 35
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "THE_GRAND_TREE",
+          "states": [
+            "FINISHED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -121940,52 +121956,6 @@
   },
   {
     "source": {
-      "x": 2691,
-      "y": 3697,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2688,
-      "y": 3697,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 544,
-      "name": "Broken Fence",
-      "action": "Jump"
-    }
-  },
-  {
-    "source": {
-      "x": 2688,
-      "y": 3697,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2691,
-      "y": 3697,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 544,
-      "name": "Broken Fence",
-      "action": "Jump"
-    }
-  },
-  {
-    "source": {
       "x": 1718,
       "y": 10102,
       "plane": 0
@@ -124881,6 +124851,373 @@
     "data": {
       "id": 32601,
       "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2795,
+      "y": 2979
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2791,
+      "y": 2979
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": "2231",
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2791,
+      "y": 2979
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2795,
+      "y": 2979
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": "2231",
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 4065,
+      "y": 4555
+    },
+    "destination": {
+      "plane": 1,
+      "x": 4065,
+      "y": 4554
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "WHILE_GUTHIX_SLEEPS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "44066"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 4065,
+      "y": 4554
+    },
+    "destination": {
+      "plane": 2,
+      "x": 4066,
+      "y": 4552
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "WHILE_GUTHIX_SLEEPS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "44066"
+    }
+  },
+  {
+    "source": {
+      "plane": 2,
+      "x": 4065,
+      "y": 4552
+    },
+    "destination": {
+      "plane": 1,
+      "x": 4066,
+      "y": 4553
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "WHILE_GUTHIX_SLEEPS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Jump-down",
+      "id": "53676"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 4066,
+      "y": 4553
+    },
+    "destination": {
+      "plane": 0,
+      "x": 4065,
+      "y": 4555
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "WHILE_GUTHIX_SLEEPS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Jump-down",
+      "id": "53676"
+    }
+  },
+  {
+    "source": {
+      "plane": 2,
+      "x": 4063,
+      "y": 4550
+    },
+    "destination": {
+      "plane": 0,
+      "x": 4061,
+      "y": 4466
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "WHILE_GUTHIX_SLEEPS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-through",
+      "id": "54082"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 4061,
+      "y": 4466
+    },
+    "destination": {
+      "plane": 2,
+      "x": 4063,
+      "y": 4550
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "WHILE_GUTHIX_SLEEPS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Crawl-through",
+      "id": "53637"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2799,
+      "y": 3666
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2799,
+      "y": 3665
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "MOUNTAIN_DAUGHTER",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Go-through",
+      "id": "5891"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2799,
+      "y": 3665
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2799,
+      "y": 3666
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "MOUNTAIN_DAUGHTER",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Go-through",
+      "id": "5891"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2509,
+      "y": 3252
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2509,
+      "y": 3254
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "TREE_GNOME_VILLAGE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-over",
+      "id": "2185"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3548,
+      "y": 3565
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3547,
+      "y": 3565
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "5174"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3547,
+      "y": 3565
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3548,
+      "y": 3565
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "5174"
     }
   }
 ]
