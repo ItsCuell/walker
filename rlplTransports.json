@@ -100780,7 +100780,7 @@
             1757
           ],
           "amount": 1,
-          "location": "INVENTORY",
+          "location": "EQUIPMENT",
           "reduction": "AND"
         }
       ],
@@ -125218,6 +125218,94 @@
     "data": {
       "action": "Open",
       "id": "5174"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 2572,
+      "y": 3270
+    },
+    "destination": {
+      "plane": 1,
+      "x": 2572,
+      "y": 3271
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Knock-at",
+      "id": "46902"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 2572,
+      "y": 3271
+    },
+    "destination": {
+      "plane": 1,
+      "x": 2572,
+      "y": 3270
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Knock-at",
+      "id": "46902"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3578,
+      "y": 3526
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3577,
+      "y": 9927
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Push",
+      "id": "5167"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3577,
+      "y": 9927
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3578,
+      "y": 3526
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "17387"
     }
   }
 ]
