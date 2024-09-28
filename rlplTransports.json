@@ -125307,5 +125307,71 @@
       "action": "Climb-up",
       "id": "17387"
     }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 1513,
+      "y": 3243
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1518,
+      "y": 3248
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "55323"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 1518,
+      "y": 3248
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1513,
+      "y": 3243
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "55323"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1458,
+      "y": 2968
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1455,
+      "y": 2968
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Cross",
+      "id": "55333"
+    }
   }
 ]
