@@ -125688,5 +125688,49 @@
       "action": "Pass-through",
       "id": "51375"
     }
+  },
+	  {
+    "source": {
+      "plane": 0,
+      "x": 2523,
+      "y": 3740
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2442,
+      "y": 10146
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "8929"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2442,
+      "y": 10146
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2523,
+      "y": 3740
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "8966"
+    }
   }
 ]
