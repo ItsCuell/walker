@@ -125820,5 +125820,49 @@
       "action": "Use",
       "id": "26712"
     }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1440,
+      "y": 9615
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1439,
+      "y": 9599
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "51377"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1439,
+      "y": 9599
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1440,
+      "y": 9615
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "51375"
+    }
   }
 ]
