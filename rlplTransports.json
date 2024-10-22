@@ -125518,7 +125518,7 @@
       "y": 9717
     },
     "destination": {
-      "plane": 0,
+      "plane": 1,
       "x": 1423,
       "y": 9649
     },
@@ -125535,7 +125535,7 @@
   },
   {
     "source": {
-      "plane": 0,
+      "plane": 1,
       "x": 1423,
       "y": 9649
 
@@ -125564,7 +125564,7 @@
 
     },
     "destination": {
-      "plane": 0,
+      "plane": 1,
       "x": 1423,
       "y": 9615
     },
@@ -125581,7 +125581,7 @@
   },
   {
     "source": {
-      "plane": 0,
+      "plane": 1,
       "x": 1423,
       "y": 9615
     },
@@ -125608,7 +125608,7 @@
       "y": 9669
     },
     "destination": {
-      "plane": 0,
+      "plane": 1,
       "x": 1457,
       "y": 9649
     },
@@ -125625,7 +125625,7 @@
   },
   {
     "source": {
-      "plane": 0,
+      "plane": 1,
       "x": 1457,
       "y": 9649
     },
@@ -125677,6 +125677,182 @@
       "plane": 0,
       "x": 1513,
       "y": 9563
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "51375"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2523,
+      "y": 3740
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2442,
+      "y": 10146
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "8929"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2442,
+      "y": 10146
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2523,
+      "y": 3740
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "8966"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2883,
+      "y": 9825
+    },
+    "destination": {
+      "plane": 1,
+      "x": 2880,
+      "y": 9825
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "30189"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 2880,
+      "y": 9825
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2883,
+      "y": 9825
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "30190"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3321,
+      "y": 3122
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3305,
+      "y": 9497
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "30180"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3305,
+      "y": 9497
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3321,
+      "y": 3122
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Use",
+      "id": "26712"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1440,
+      "y": 9615
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1439,
+      "y": 9599
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "51377"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1439,
+      "y": 9599
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1440,
+      "y": 9615
     },
     "requirements": {
       "miscRequirements": {
