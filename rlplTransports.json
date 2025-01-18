@@ -13800,7 +13800,7 @@
     },
     "type": "OBJECT",
     "data": {
-      "id": 15645,
+      "id": 46704,
       "action": "Climb-up"
     }
   },
@@ -13822,51 +13822,7 @@
     },
     "type": "OBJECT",
     "data": {
-      "id": 15648,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 2568,
-      "y": 3271,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2568,
-      "y": 3267,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 15645,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 2569,
-      "y": 3267,
-      "plane": 1
-    },
-    "destination": {
-      "x": 2568,
-      "y": 3271,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 15648,
+      "id": 46705,
       "action": "Climb-down"
     }
   },
@@ -13877,8 +13833,8 @@
       "plane": 0
     },
     "destination": {
-      "x": 2570,
-      "y": 9668,
+      "x": 2544,
+      "y": 9695,
       "plane": 0
     },
     "requirements": {
@@ -13888,14 +13844,14 @@
     },
     "type": "OBJECT",
     "data": {
-      "id": 17384,
+      "id": 46717,
       "action": "Climb-down"
     }
   },
   {
     "source": {
-      "x": 2570,
-      "y": 9668,
+      "x": 2544,
+      "y": 9695,
       "plane": 0
     },
     "destination": {
@@ -13910,51 +13866,7 @@
     },
     "type": "OBJECT",
     "data": {
-      "id": 17385,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 2571,
-      "y": 3267,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2571,
-      "y": 9667,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 17384,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 2571,
-      "y": 9667,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2571,
-      "y": 3267,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 17385,
+      "id": 46716,
       "action": "Climb-up"
     }
   },
