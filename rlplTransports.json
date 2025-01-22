@@ -125836,5 +125836,49 @@
       "action": "Climb-up",
       "id": "50143"
     }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2929,
+      "y": 9515
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2928,
+      "y": 9511
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "2257"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2928,
+      "y": 9511
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2929,
+      "y": 9515
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "2257"
+    }
   }
 ]
