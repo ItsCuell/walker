@@ -116175,8 +116175,16 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "MONKEY_MADNESS_I",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "NPC",
@@ -116198,6 +116206,14 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "MONKEY_MADNESS_I",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -125819,6 +125835,50 @@
     "data": {
       "action": "Climb-up",
       "id": "50143"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2929,
+      "y": 9515
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2928,
+      "y": 9511
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "2257"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2928,
+      "y": 9511
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2929,
+      "y": 9515
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb",
+      "id": "2257"
     }
   }
 ]
