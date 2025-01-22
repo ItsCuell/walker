@@ -116175,8 +116175,16 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "MONKEY_MADNESS_I",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "NPC",
@@ -116198,6 +116206,14 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "MONKEY_MADNESS_I",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
