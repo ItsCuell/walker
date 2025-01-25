@@ -124070,7 +124070,13 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 47
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -124125,12 +124131,6 @@
             "IN_PROGRESS",
             "FINISHED"
           ]
-        }
-      ],
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 47
         }
       ],
       "miscRequirements": {
