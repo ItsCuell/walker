@@ -125880,5 +125880,201 @@
       "action": "Climb",
       "id": "2257"
     }
+  },
+  {
+    "source": {
+      "plane": 2,
+      "x": 1556,
+      "y": 3034
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1556,
+      "y": 3034
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-down",
+      "id": "52620"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1556,
+      "y": 3034
+    },
+    "destination": {
+      "plane": 2,
+      "x": 1556,
+      "y": 3034
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "52614"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1553,
+      "y": 3033
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1553,
+      "y": 3033
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-down",
+      "id": "52614"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 1553,
+      "y": 3033
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1553,
+      "y": 3033
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "52614"
+    }
+  },
+  {
+    "source": {
+      "x": 1495,
+      "y": 2985,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1446,
+      "y": 2976,
+      "plane": 1
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 20,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 13984,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1446,
+      "y": 2976
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1443,
+      "y": 2976
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Cross",
+      "id": "55337"
+    }
+  },
+  {
+    "source": {
+      "x": 1442,
+      "y": 2976,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1491,
+      "y": 2985,
+      "plane": 1
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 20,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 13985,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1491,
+      "y": 2985
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1494,
+      "y": 2985
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Cross",
+      "id": "55335"
+    }
   }
 ]
