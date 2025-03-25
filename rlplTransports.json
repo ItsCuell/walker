@@ -126076,5 +126076,49 @@
       "action": "Cross",
       "id": "55335"
     }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 1766,
+      "y": 3101
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1766,
+      "y": 3098
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "52635"
+    }
+  },
+  {
+    "source": {
+      "plane": 1,
+      "x": 1766,
+      "y": 3098
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1766,
+      "y": 3101
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-down",
+      "id": "52636"
+    }
   }
 ]
