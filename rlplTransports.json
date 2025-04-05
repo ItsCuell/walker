@@ -126120,5 +126120,137 @@
       "action": "Climb-down",
       "id": "52636"
     }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3259,
+      "y": 3663
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3385,
+      "y": 10052
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Walk-down",
+      "id": "40388"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3385,
+      "y": 10052
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3259,
+      "y": 3663
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Exit",
+      "id": "40389"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3294,
+      "y": 3749
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3406,
+      "y": 10145
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Walk-down",
+      "id": "40390"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 3406,
+      "y": 10145
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3294,
+      "y": 3749
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Exit",
+      "id": "40391"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2607,
+      "y": 9692
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2567,
+      "y": 9680
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Board",
+      "id": "2849"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2567,
+      "y": 9680
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2607,
+      "y": 9692
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Board",
+      "id": "2849"
+    }
   }
 ]
