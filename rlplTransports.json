@@ -125992,5 +125992,102 @@
       "action": "Climb-down",
       "id": "52636"
     }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2909,
+      "y": 9910
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2909,
+      "y": 9909
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "1568"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2909,
+      "y": 9919
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2909,
+      "y": 9910
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "1568"
+    }
+  },
+  {
+    "source": {
+      "x": 3354,
+      "y": 3417,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3369,
+      "y": 9763,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            954
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "ITEM_USE",
+    "data": {
+      "id": 2350
+    }
+  },
+  {
+    "source": {
+      "x": 3369,
+      "y": 9763,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3354,
+      "y": 3417,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "2353"
+    }
   }
 ]
