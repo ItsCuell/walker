@@ -126089,5 +126089,197 @@
       "action": "Climb-up",
       "id": "2353"
     }
+  },
+  {
+    "source": {
+      "x": 1435,
+      "y": 3671,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1435,
+      "y": 10077,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "30236"
+    }
+  },
+  {
+    "source": {
+      "x": 1435,
+      "y": 10077,
+      "plane": 3
+    },
+    "destination": {
+      "x": 1435,
+      "y": 3671,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "30234"
+    }
+  },
+  {
+    "source": {
+      "x": 1438,
+      "y": 10093,
+      "plane": 3
+    },
+    "destination": {
+      "x": 1438,
+      "y": 10093,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "30258"
+    }
+  },
+  {
+    "source": {
+      "x": 1438,
+      "y": 10093,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1438,
+      "y": 10093,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "30259"
+    }
+  },
+  {
+    "source": {
+      "x": 1457,
+      "y": 10095,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1457,
+      "y": 10095,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "30258"
+    }
+  },
+  {
+    "source": {
+      "x": 1457,
+      "y": 10095,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1457,
+      "y": 10095,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "30259"
+    }
+  },
+  {
+    "source": {
+      "x": 2513,
+      "y": 10003,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2513,
+      "y": 10002,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "HORROR_FROM_THE_DEEP",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "4546"
+    }
+  },
+  {
+    "source": {
+      "x": 2516,
+      "y": 10002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2516,
+      "y": 10003,
+      "plane": 0
+    },
+    "requirements": {
+        "questRequirements": [
+          {
+            "quest": "HORROR_FROM_THE_DEEP",
+            "states": [
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "4545"
+    }
   }
 ]
