@@ -126296,6 +126296,90 @@
   },
   {
     "source": {
+      "x": 1438,
+      "y": 10096,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1438,
+      "y": 10098,
+      "plane": 1
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Hang-over",
+      "id": "56371"
+    }
+  },
+  {
+    "source": {
+      "x": 1442,
+      "y": 10097,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1446,
+      "y": 10097,
+      "plane": 1
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Jump",
+      "id": "56372"
+    }
+  },
+  {
+    "source": {
+      "x": 1449,
+      "y": 10097,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1456,
+      "y": 10097,
+      "plane": 1
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Jump",
+      "id": "56372"
+    }
+  },
+  {
+    "source": {
       "x": 2513,
       "y": 10003,
       "plane": 0
