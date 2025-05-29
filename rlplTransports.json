@@ -126437,5 +126437,99 @@
       "action": "Open",
       "id": "4545"
     }
+  },
+  {
+    "source": {
+      "x": 3189,
+      "y": 3358,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3189,
+      "y": 3354,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-up",
+      "id": "11797"
+    }
+  },
+  {
+    "source": {
+      "x": 3189,
+      "y": 3354,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3189,
+      "y": 3358,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-down",
+      "id": "11799"
+    }
+  },
+  {
+    "source": {  
+      "plane": 0,
+      "x": 2565,
+      "y": 3356
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2564,
+      "y": 3356
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "THIEVING",
+          "level": 46
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pick-lock",
+      "id": "11723"
+    }
+  },
+  {
+    "source": {  
+      "plane": 0,
+      "x": 2564,
+      "y": 3356
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2565,
+      "y": 3356
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Open",
+      "id": "11723"
+    }
   }
 ]
