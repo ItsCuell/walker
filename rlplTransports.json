@@ -126531,5 +126531,127 @@
       "action": "Open",
       "id": "11723"
     }
+  },
+  {
+    "source": {  
+      "plane": 0,
+      "x": 2846,
+      "y": 10333
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2902,
+      "y": 10337
+    },
+    "requirements": {
+      "questRequirements": [
+          {
+            "quest": "SECRETS_OF_THE_NORTH",
+            "states": [
+              "IN_PROGRESS",
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "46905"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2902,
+      "y": 10337
+    },
+    "destination": {  
+      "plane": 0,
+      "x": 2846,
+      "y": 10333
+    },
+    "requirements": {
+      "questRequirements": [
+          {
+            "quest": "SECRETS_OF_THE_NORTH",
+            "states": [
+              "IN_PROGRESS",
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "46596"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2865,
+      "y": 3938
+    },
+    "destination": {  
+      "plane": 0,
+      "x": 2866,
+      "y": 3938
+    },
+    "requirements": {
+      "questRequirements": [
+          {
+            "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+            "states": [
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Squeeze-through",
+      "id": "46815"
+    }
+  },
+  {
+    "source": {  
+      "plane": 0,
+      "x": 2866,
+      "y": 3938
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2865,
+      "y": 3938
+    },
+    "requirements": {
+      "questRequirements": [
+          {
+            "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+            "states": [
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Squeeze-through",
+      "id": "46815"
+    }
   }
 ]
