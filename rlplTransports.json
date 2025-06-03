@@ -126499,5 +126499,49 @@
       "action": "Squeeze-through",
       "id": "46815"
     }
+  },
+  {
+  "source": {  
+    "plane": 0,
+    "x": 3657,
+    "y": 3407
+  },
+  "destination": {
+    "plane": 0,
+    "x": 3679,
+    "y": 9797
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Enter",
+    "id": "42594"
   }
+},
+{
+  "source": {  
+    "plane": 0,
+    "x": 3679,
+    "y": 9797
+  },
+  "destination": {
+    "plane": 0,
+    "x": 3658,
+    "y": 3407
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Exit",
+    "id": "42595"
+  }
+}
 ]
