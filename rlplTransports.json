@@ -126663,5 +126663,61 @@
     "action": "Exit",
     "id": "42595"
   }
+},
+{
+  "source": {  
+    "plane": 2,
+    "x": 2885,
+    "y": 5332
+  },
+  "destination": {
+    "plane": 2,
+    "x": 2885,
+    "y": 5345
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    },
+    "skillRequirements": [
+      {
+        "skill": "HITPOINTS",
+        "level": 70
+      }
+    ]
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Climb-off",
+    "id": "26518"
+  }
+},
+{
+  "source": { 
+    "plane": 2,
+    "x": 2885,
+    "y": 5345 
+  },
+  "destination": {
+    "plane": 2,
+    "x": 2885,
+    "y": 5332
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    },
+    "skillRequirements": [
+      {
+        "skill": "HITPOINTS",
+        "level": 70
+      }
+    ]
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Climb-off",
+    "id": "26518"
+  }
 }
 ]
