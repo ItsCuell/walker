@@ -126719,5 +126719,49 @@
     "action": "Climb-off",
     "id": "26518"
   }
+},
+{
+  "source": {  
+    "plane": 0,
+    "x": 2379,
+    "y": 9452
+  },
+  "destination": {
+    "plane": 0,
+    "x": 2376,
+    "y": 9452
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Use",
+    "id": "535"
+  }
+},
+{
+  "source": {  
+    "plane": 0,
+    "x": 2376,
+    "y": 9452
+  },
+  "destination": {
+    "plane": 0,
+    "x": 2379,
+    "y": 9452
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Use",
+    "id": "536"
+  }
 }
 ]
