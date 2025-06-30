@@ -91121,42 +91121,6 @@
   },
   {
     "source": {
-      "x": 2838,
-      "y": 3693,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2844,
-      "y": 3693,
-      "plane": 0
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 73
-        }
-      ],
-      "varRequirements": [
-        {
-          "comparison": "GREATER_THAN",
-          "type": "VARBIT",
-          "var": 4493,
-          "value": 0
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16464,
-      "action": "Climb"
-    }
-  },
-  {
-    "source": {
       "x": 2892,
       "y": 10074,
       "plane": 2
@@ -91175,78 +91139,6 @@
     "data": {
       "id": 3760,
       "action": "Exit"
-    }
-  },
-  {
-    "source": {
-      "x": 2844,
-      "y": 3693,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2838,
-      "y": 3693,
-      "plane": 0
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 73
-        }
-      ],
-      "varRequirements": [
-        {
-          "comparison": "GREATER_THAN",
-          "type": "VARBIT",
-          "var": 4493,
-          "value": 0
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16464,
-      "action": "Climb"
-    }
-  },
-  {
-    "source": {
-      "x": 2843,
-      "y": 3692,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2838,
-      "y": 3693,
-      "plane": 0
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 73
-        }
-      ],
-      "varRequirements": [
-        {
-          "comparison": "GREATER_THAN",
-          "type": "VARBIT",
-          "var": 4493,
-          "value": 0
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16464,
-      "action": "Climb"
     }
   },
   {
@@ -126763,5 +126655,113 @@
     "action": "Use",
     "id": "536"
   }
-}
+},
+  {
+    "source": {
+      "x": 2838,
+      "y": 3693,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2844,
+      "y": 3693,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
+      "questRequirements": [
+          {
+            "quest": "MY_ARMS_BIG_ADVENTURE",
+            "states": [
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16464,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2844,
+      "y": 3693,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2838,
+      "y": 3693,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
+      "questRequirements": [
+          {
+            "quest": "MY_ARMS_BIG_ADVENTURE",
+            "states": [
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16464,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2843,
+      "y": 3692,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2838,
+      "y": 3693,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
+      "questRequirements": [
+          {
+            "quest": "MY_ARMS_BIG_ADVENTURE",
+            "states": [
+              "FINISHED"
+            ]
+          }
+        ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16464,
+      "action": "Climb"
+    }
+  }
 ]
