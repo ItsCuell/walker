@@ -6949,7 +6949,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -6971,7 +6971,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -7015,7 +7015,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -7037,7 +7037,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -122657,7 +122657,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "NPC",
