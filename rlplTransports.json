@@ -21481,18 +21481,8 @@
       "plane": 0
     },
     "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            1854
-          ],
-          "amount": 1,
-          "location": "INVENTORY",
-          "reduction": "AND"
-        }
-      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -120793,7 +120783,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
