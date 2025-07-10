@@ -115676,7 +115676,8 @@
         {
           "quest": "MONKEY_MADNESS_I",
           "states": [
-            "IN_PROGRESS"
+            "IN_PROGRESS",
+            "FINISHED"
           ]
         }
       ],
@@ -115707,7 +115708,8 @@
         {
           "quest": "MONKEY_MADNESS_I",
           "states": [
-            "IN_PROGRESS"
+            "IN_PROGRESS",
+            "FINISHED"
           ]
         }
       ],
