@@ -126755,5 +126755,768 @@
       "id": 16464,
       "action": "Climb"
     }
+  },
+  {
+  "source": {  
+    "plane": 0,
+    "x": 1271,
+    "y": 3436
+  },
+  "destination": {
+    "plane": 0,
+    "x": 1259,
+    "y": 3430
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Pass-through",
+    "id": "57220"
   }
+},
+  {
+  "source": {  
+    "plane": 0,
+    "x": 1259,
+    "y": 3430
+  },
+  "destination": {
+    "plane": 0,
+    "x": 1271,
+    "y": 3436
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Pass-through",
+    "id": "57219"
+  }
+},
+{
+  "source": {  
+    "plane": 0,
+    "x": 1256,
+    "y": 3395
+  },
+  "destination": {
+    "plane": 0,
+    "x": 1271,
+    "y": 3436
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Travel",
+    "id": "57272",
+    "dialog": [
+        "Yes."
+      ]
+  }
+},
+{
+  "source": {  
+    "plane": 0,
+    "x": 1271,
+    "y": 3436
+  },
+  "destination": {
+    "plane": 0,
+    "x": 1256,
+    "y": 3395
+  },
+  "requirements": {
+    "miscRequirements": {
+      "member": true
+    }
+  },
+  "type": "OBJECT",
+  "data": {
+    "action": "Travel",
+    "id": "57271",
+    "dialog": [
+        "Yes."
+      ]
+  }
+},
+  {
+    "source": {
+      "x": 1401,
+      "y": 3283,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1401,
+      "y": 3291,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 45
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56990,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 1401,
+      "y": 3291,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1401,
+      "y": 3283,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 45
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56990,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 1397,
+      "y": 3309,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1393,
+      "y": 3309,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 36
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56988,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1393,
+      "y": 3309,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1397,
+      "y": 3309,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 36
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56988,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1391,
+      "y": 3309,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1389,
+      "y": 3309,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 24
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56997,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1389,
+      "y": 3309,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1391,
+      "y": 3309,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 24
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56997,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1387,
+      "y": 3303,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1387,
+      "y": 3301,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 24
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56996,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1387,
+      "y": 3301,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1387,
+      "y": 3303,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 24
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56996,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1369,
+      "y": 3296,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1369,
+      "y": 3294,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 24
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56996,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1369,
+      "y": 3294,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1369,
+      "y": 3296,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 24
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56996,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1368,
+      "y": 3323,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1368,
+      "y": 3327,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 33
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56989,
+      "action": "Climb-into"
+    }
+  },
+  {
+    "source": {
+      "x": 1368,
+      "y": 3327,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1368,
+      "y": 3323,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 33
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56989,
+      "action": "Climb-into"
+    }
+  },
+  {
+    "source": {
+      "x": 1391,
+      "y": 3323,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1396,
+      "y": 3323,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 41
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56994,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1396,
+      "y": 3323,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1391,
+      "y": 3323,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 41
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56994,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1453,
+      "y": 3336,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1453,
+      "y": 3329,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 45
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56991,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 1453,
+      "y": 3329,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1453,
+      "y": 3336,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 45
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 56991,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 1400,
+      "y": 3246,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1257,
+      "y": 3126,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14729,
+      "action": "Tal Teklan"
+    }
+  },
+  {
+    "source": {
+      "x": 1257,
+      "y": 3126,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1400,
+      "y": 3246,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14728,
+      "action": "Gloomthorn Trail"
+    }
+  },
+  {
+    "source": {
+      "x": 1400,
+      "y": 3246,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1390,
+      "y": 3074,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14729,
+      "action": "Kastori"
+    }
+  },
+  {
+    "source": {
+      "x": 1390,
+      "y": 3074,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1400,
+      "y": 3246,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14727,
+      "action": "Gloomthorn Trail"
+    }
+  },
+  {
+    "source": {
+      "x": 1257,
+      "y": 3126,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1390,
+      "y": 3074,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14728,
+      "action": "Kastori"
+    }
+  },
+  {
+    "source": {
+      "x": 1390,
+      "y": 3074,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1257,
+      "y": 3126,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14727,
+      "action": "Tal Teklan"
+    }
+  },
+  {
+    "source": {
+      "x": 1274,
+      "y": 3002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1270,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57605,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1270,
+      "y": 3002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1274,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57604,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1477,
+      "y": 3305,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1477,
+      "y": 3309,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56985,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1477,
+      "y": 3309,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1477,
+      "y": 3305,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56986,
+      "action": "Climb"
+    }
+  } 
+
 ]
