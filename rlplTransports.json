@@ -127517,6 +127517,225 @@
       "id": 56986,
       "action": "Climb"
     }
-  } 
-
+  },
+  {
+    "source": {
+      "x": 2321,
+      "y": 3100,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1473,
+      "y": 4238,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49868,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1473,
+      "y": 4238,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2321,
+      "y": 3100,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49756,
+      "action": "Exit"
+    }
+  },
+  {
+    "source": {
+      "x": 1479,
+      "y": 4239,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1479,
+      "y": 4240,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49700,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1479,
+      "y": 4240,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1479,
+      "y": 4239,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49701,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1487,
+      "y": 4238,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1488,
+      "y": 4238,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49742,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 1488,
+      "y": 4238,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1487,
+      "y": 4238,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49742,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 1491,
+      "y": 4238,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1492,
+      "y": 4238,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49742,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 1492,
+      "y": 4238,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1491,
+      "y": 4238,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49742,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 1530,
+      "y": 4236,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1529,
+      "y": 4236,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49701,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1529,
+      "y": 4236,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1530,
+      "y": 4236,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 49700,
+      "action": "Climb-up"
+    }
+  }
 ]
