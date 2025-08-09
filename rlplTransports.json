@@ -106225,8 +106225,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 78
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -106247,8 +106253,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 78
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -106269,8 +106281,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 84
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -106291,8 +106309,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 84
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -120366,79 +120390,6 @@
   },
   {
     "source": {
-      "x": 1469,
-      "y": 3653,
-      "plane": 0
-    },
-    "destination": {
-      "x": 1650,
-      "y": 9987,
-      "plane": 0
-    },
-    "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            11864,
-            11865,
-            25177,
-            19639,
-            19641,
-            25179,
-            19643,
-            19645,
-            25181,
-            21264,
-            21266,
-            25185,
-            19647,
-            19649,
-            25183,
-            21888,
-            21890,
-            25187,
-            24370,
-            24444,
-            25191,
-            23073,
-            23075,
-            25189,
-            25898,
-            25900,
-            25902,
-            25904,
-            25906,
-            25908,
-            25910,
-            25912,
-            25914
-          ],
-          "amount": 1,
-          "location": "EQUIPMENT",
-          "reduction": "OR"
-        }
-      ],
-      "varRequirements": [
-        {
-          "comparison": "GREATER_THAN_EQUAL",
-          "type": "VARBIT",
-          "var": 5088,
-          "value": 1
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 28915,
-      "name": "Hole",
-      "action": "Enter"
-    }
-  },
-  {
-    "source": {
       "x": 1342,
       "y": 3646,
       "plane": 0
@@ -121495,12 +121446,12 @@
   },
   {
     "source": {
-      "x": 1696,
-      "y": 3864,
+      "x": 1562,
+      "y": 3791,
       "plane": 0
     },
     "destination": {
-      "x": 1719,
+      "x": 1617,
       "y": 10101,
       "plane": 0
     },
@@ -121508,62 +121459,59 @@
       "itemRequirements": [
         {
           "ids": [
-            11864,
-            11865,
-            25177,
-            19639,
-            19641,
-            25179,
-            19643,
-            19645,
-            25181,
-            21264,
-            21266,
-            25185,
-            19647,
-            19649,
-            25183,
-            21888,
-            21890,
-            25187,
-            24370,
-            24444,
-            25191,
-            23073,
-            23075,
-            25189,
-            25898,
-            25900,
-            25902,
-            25904,
-            25906,
-            25908,
-            25910,
-            25912,
-            25914
+            1540,
+            11284,
+            11283
           ],
           "amount": 1,
           "location": "EQUIPMENT",
           "reduction": "OR"
         }
       ],
-      "varRequirements": [
-        {
-          "comparison": "GREATER_THAN_EQUAL",
-          "type": "VARBIT",
-          "var": 5089,
-          "value": 1
-        }
-      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
-      "id": 28920,
+      "id": 28921,
       "name": "Hole",
       "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1617,
+      "y": 10101,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1562,
+      "y": 3791,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            1540,
+            11284,
+            11283
+          ],
+          "amount": 1,
+          "location": "EQUIPMENT",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 28895,
+      "name": "Vine",
+      "action": "Climb-up"
     }
   },
   {
@@ -121694,12 +121642,12 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
-      "id": 28915,
+      "id": 28919,
       "name": "Hole",
       "action": "Enter"
     }
@@ -127521,7 +127469,7 @@
   {
     "source": {
       "x": 2321,
-      "y": 3100,
+      "y": 3104,
       "plane": 0
     },
     "destination": {
@@ -127548,7 +127496,7 @@
     },
     "destination": {
       "x": 2321,
-      "y": 3100,
+      "y": 3104,
       "plane": 0
     },
     "requirements": {
@@ -127714,6 +127662,322 @@
     "data": {
       "id": 49701,
       "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2527,
+      "y": 2894,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2532,
+      "y": 9294,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4473,
+          "value": 1
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 19039,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2532,
+      "y": 9294,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2527,
+      "y": 2894,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 19037,
+      "action": "Exit"
+    }
+  },
+  {
+    "source": {
+      "x": 1324,
+      "y": 3363,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1324,
+      "y": 9768,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57279,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 1324,
+      "y": 9768,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1324,
+      "y": 3363,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57278,
+      "action": "Squeeze-through"
+    }
+  },
+    {
+    "source": {
+      "x": 1298,
+      "y": 9780,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1274,
+      "y": 9771,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57274,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1274,
+      "y": 9771,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1297,
+      "y": 9780,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57273,
+      "action": "Enter"
+    }
+  },
+    {
+    "source": {
+      "x": 1262,
+      "y": 9758,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1259,
+      "y": 9758,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57276,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1259,
+      "y": 9758,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1262,
+      "y": 9758,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57275,
+      "action": "Climb"
+    }
+  },
+    {
+    "source": {
+      "x": 1296,
+      "y": 3375,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1296,
+      "y": 9767,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56439,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1296,
+      "y": 9767,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1296,
+      "y": 3375,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56440,
+      "action": "Exit"
+    }
+  },
+  {
+    "source": {
+      "x": 1308,
+      "y": 9782,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1308,
+      "y": 9786,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57277,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1308,
+      "y": 9786,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1308,
+      "y": 9782,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57277,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3677,
+      "y": 9820,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3684,
+      "y": 9820,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 54271,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 3684,
+      "y": 9820,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3677,
+      "y": 9820,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 54272,
+      "action": "Squeeze-through"
     }
   },
   {
