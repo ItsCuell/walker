@@ -128001,5 +128001,138 @@
       "id": 49700,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 2457,
+      "y": 2839,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2458,
+      "y": 2839,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31627,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2458,
+      "y": 2839,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2457,
+      "y": 2839,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 32206,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2457,
+      "y": 2849,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1936,
+      "y": 9009,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31626,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1936,
+      "y": 9009,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2457,
+      "y": 2849,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 32205,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1939,
+      "y": 8968,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2445,
+      "y": 2818,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31807,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2445,
+      "y": 2818,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1939,
+      "y": 8968,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31606,
+      "action": "Enter"
+    }
   }
+  
 ]
