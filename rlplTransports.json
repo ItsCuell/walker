@@ -118491,8 +118491,8 @@
       "plane": 0
     },
     "destination": {
-      "x": 3769,
-      "y": 3898,
+      "x": 3764,
+      "y": 3899,
       "plane": 0
     },
     "requirements": {
@@ -118512,8 +118512,8 @@
   },
   {
     "source": {
-      "x": 3768,
-      "y": 3898,
+      "x": 3763,
+      "y": 3899,
       "plane": 0
     },
     "destination": {
@@ -118534,6 +118534,35 @@
       "dialog": [
         "Dive and walk on the seabed (deep water will mean death)."
       ]
+    }
+  },
+  {
+    "source": {
+      "x": 3765,
+      "y": 3883,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3765,
+      "y": 3898,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 74
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Zip line",
+      "id": 57667,
+      "action": "Teeth-grip"
     }
   },
   {
