@@ -128162,6 +128162,168 @@
       "id": 31606,
       "action": "Enter"
     }
+  },
+  {
+    "source": {
+      "x": 3120,
+      "y": 9964,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3120,
+      "y": 9969,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 15
+          }
+        ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Monkeybars",
+      "id": 23566,
+      "action": "Swing across"
+    }
+  },
+  {
+    "source": {
+      "x": 3120,
+      "y": 9969,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3120,
+      "y": 9964,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 15 }]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Monkeybars",
+      "id": 23566,
+      "action": "Swing across"
+    }
+  },
+  {
+    "source": {
+       "x": 3045,
+       "y": 3956,
+       "plane": 0 },
+    "destination": {
+       "x": 3044,
+       "y": 3956,
+       "plane": 0 
+      },
+    "requirements": {
+      "miscRequirements": {
+         "member": true
+        },
+      "itemRequirements": [
+        {
+          "ids": [1523],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 11727,
+      "action": "Pick-lock"
+    }
+  },
+  {
+    "source": {
+      "x": 3044,
+      "y": 3956,
+    "plane": 0
+  },
+    "destination": {
+      "x": 3045,
+      "y": 3956,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 11727,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3190,
+      "y": 3957,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3190,
+      "y": 3958,
+      "plane": 0 },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "itemRequirements": [
+        {
+          "ids": [1523],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 11726,
+      "action": "Pick-lock"
+    }
+  },
+  {
+    "source": {
+      "x": 3190,
+      "y": 3958,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3190,
+      "y": 3957,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 11726,
+      "action": "Open"
+    }
   }
   
 ]
