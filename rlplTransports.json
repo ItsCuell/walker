@@ -28591,6 +28591,15 @@
       "plane": 0
     },
     "requirements": {
+		"questRequirements": [
+        {
+          "quest": "WATERFALL_QUEST",
+          "states": [
+            "IN_PROGRESS",
+			"FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -28613,8 +28622,17 @@
       "plane": 0
     },
     "requirements": {
+		"questRequirements": [
+        {
+          "quest": "WATERFALL_QUEST",
+          "states": [
+            "IN_PROGRESS",
+			"FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -28635,6 +28653,15 @@
       "plane": 0
     },
     "requirements": {
+		"questRequirements": [
+        {
+          "quest": "WATERFALL_QUEST",
+          "states": [
+            "IN_PROGRESS",
+			"FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -28643,28 +28670,6 @@
     "data": {
       "id": 10283,
       "action": "Swim"
-    }
-  },
-  {
-    "source": {
-      "x": 2510,
-      "y": 3493,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2512,
-      "y": 3481,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 1987,
-      "action": "Board"
     }
   },
   {
@@ -128323,6 +128328,117 @@
       "name": "Door",
       "id": 11726,
       "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3229,
+      "y": 9526,
+      "plane": 2
+    },
+    "destination": {
+      "x": 4075,
+      "y": 4601,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [4702],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "name": "Light creature",
+      "id": 5435,
+      "action": "Attract",
+      "dialog": [
+        "Travel into the chasm."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 4075,
+      "y": 4601,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3229,
+      "y": 9526,
+      "plane": 2
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [4702],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "name": "Light creature",
+      "id": 5435,
+      "action": "Attract"
+    }
+  },
+  {
+    "source": {
+      "x": 2457,
+      "y": 2862,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2457,
+      "y": 2860,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Magical Barrier",
+      "id": 31616,
+      "action": "Pass"
+    }
+  },
+  {
+    "source": {
+      "x": 2457,
+      "y": 2860,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2457,
+      "y": 2862,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Magical Barrier",
+      "id": 31616,
+      "action": "Pass"
     }
   }
   
