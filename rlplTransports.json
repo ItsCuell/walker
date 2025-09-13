@@ -128802,5 +128802,258 @@
       "id": 57679,
       "action": "Climb-through"
     }
+  },
+  {
+    "source": {
+      "x": 1642,
+      "y": 3222,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1631,
+      "y": 9632,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Lift Platform",
+      "id": 54524,
+      "action": "Use"
+    }
+  },
+  {
+    "source": {
+      "x": 1631,
+      "y": 9632,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1642,
+      "y": 3222,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Lift Platform",
+      "id": 54521,
+      "action": "Use"
+    }
+  },
+  {
+    "source": {
+      "x": 1693,
+      "y": 3232,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1693,
+      "y": 9633,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 54525,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1693,
+      "y": 9633,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1693,
+      "y": 3232,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 54526,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1672,
+      "y": 9631,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1669,
+      "y": 9631,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Chain",
+      "id": 54527,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1669,
+      "y": 9631,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1672,
+      "y": 9631,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Chain",
+      "id": 55375,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1602,
+      "y": 9630,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1376,
+      "y": 4511,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 55355,
+      "action": "Pass-through"
+    }
+  },
+  {
+    "source": {
+      "x": 1376,
+      "y": 4511,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1602,
+      "y": 9630,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_HEART_OF_DARKNESS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Ice blockage",
+      "id": 54282,
+      "action": "Quick-exit"
+    }
   }
+
 ]
