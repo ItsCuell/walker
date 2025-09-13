@@ -129054,6 +129054,64 @@
       "id": 54282,
       "action": "Quick-exit"
     }
-  }
+  },
 
+  {
+    "source": {
+      "x": 2991,
+      "y": 9547,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2969,
+      "y": 9551,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 60
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Tunnel",
+      "id": 55988,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2969,
+      "y": 9550,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2992,
+      "y": 9547,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 60
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Tunnel",
+      "id": 55989,
+      "action": "Enter"
+    }
+  }
 ]
