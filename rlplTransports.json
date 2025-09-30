@@ -129113,5 +129113,42 @@
       "id": 55989,
       "action": "Enter"
     }
+  },
+  {
+    "source": {
+      "x": 2955,
+      "y": 3497,
+      "plane": 2
+    },
+    "destination": {
+      "x": 2955,
+      "y": 3498,
+      "plane": 0
+    },
+    "requirements": {},
+    "type": "OBJECT",
+    "data": {
+      "id": 16556,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2955,
+      "y": 3498,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2955,
+      "y": 3497,
+      "plane": 2
+    },
+    "requirements": {},
+    "type": "OBJECT",
+    "data": {
+      "id": 16450,
+      "action": "Climb-up"
+    }
   }
+
 ]
