@@ -115741,13 +115741,114 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "THE_SLUG_MENACE",
+          "states": [
+            "NOT_STARTED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7789,
+      "name": "Holgart",
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2718,
+      "y": 3304,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2782,
+      "y": 3273,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "THE_SLUG_MENACE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 4802,
+      "name": "Jeb",
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2718,
+      "y": 3304,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2782,
+      "y": 3273,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "THE_SLUG_MENACE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 4803,
+      "name": "Jeb",
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2783,
+      "y": 3274,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2722,
+      "y": 3305,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "THE_SLUG_MENACE",
+          "states": [
+            "NOT_STARTED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
     },
     "type": "NPC",
     "data": {
-      "id": 7789,
+      "id": 5070,
       "name": "Holgart",
       "action": "Travel"
     }
@@ -115764,14 +115865,53 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "THE_SLUG_MENACE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
     },
     "type": "NPC",
     "data": {
-      "id": 5070,
-      "name": "Holgart",
+      "id": 4802,
+      "name": "Jeb",
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2783,
+      "y": 3274,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2722,
+      "y": 3305,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "THE_SLUG_MENACE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 4803,
+      "name": "Jeb",
       "action": "Travel"
     }
   },
@@ -117587,52 +117727,6 @@
   },
   {
     "source": {
-      "x": 3659,
-      "y": 3507,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3659,
-      "y": 3509,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16105,
-      "name": "Energy Barrier",
-      "action": "Pass"
-    }
-  },
-  {
-    "source": {
-      "x": 3659,
-      "y": 3509,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3659,
-      "y": 3507,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16105,
-      "name": "Energy Barrier",
-      "action": "Pay-toll(2-Ecto)"
-    }
-  },
-  {
-    "source": {
       "x": 2751,
       "y": 2799,
       "plane": 1
@@ -117966,12 +118060,12 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
-      "id": 16105,
+      "id": 57722,
       "name": "Energy Barrier",
       "action": "Pass"
     }
@@ -117989,14 +118083,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
-      "id": 16105,
+      "id": 57722,
       "name": "Energy Barrier",
-      "action": "Pay-toll(2-Ecto)"
+      "action": "Pass"
     }
   },
   {
@@ -121120,14 +121214,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
-      "id": 16105,
+      "id": 57722,
       "name": "Energy Barrier",
-      "action": "Pay-toll(2-Ecto)"
+      "action": "Pass"
     }
   },
   {
@@ -121143,14 +121237,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
-      "id": 16105,
+      "id": 57722,
       "name": "Energy Barrier",
-      "action": "Pay-toll(2-Ecto)"
+      "action": "Pass"
     }
   },
   {
@@ -129148,6 +129242,453 @@
     "data": {
       "id": 16450,
       "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3578,
+      "y": 3526,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3577,
+      "y": 9927,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "CREATURE_OF_FENKENSTRAIN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Memorial",
+      "id": 5167,
+      "action": "Push"
+    }
+  },
+  {
+    "source": {
+      "x": 3577,
+      "y": 9927,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3578,
+      "y": 3526,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "CREATURE_OF_FENKENSTRAIN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Ladder",
+      "id": 17387,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3511,
+      "y": 9957,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3510,
+      "y": 9957,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "CREATURE_OF_FENKENSTRAIN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Entrance",
+      "id": 5170,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3510,
+      "y": 9957,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3511,
+      "y": 9957,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "CREATURE_OF_FENKENSTRAIN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Entrance",
+      "id": 5170,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3504,
+      "y": 9969,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3504,
+      "y": 3569,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "CREATURE_OF_FENKENSTRAIN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Ladder",
+      "id": 17387,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3504,
+      "y": 3571,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3504,
+      "y": 9969,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "CREATURE_OF_FENKENSTRAIN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Memorial",
+      "id": 5167,
+      "action": "Push"
+    }
+  },
+  {
+    "source": {
+      "x": 1509,
+      "y": 3593,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1509,
+      "y": 3593,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Ladder",
+      "id": 42207,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1509,
+      "y": 3593,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1509,
+      "y": 3593,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Ladder",
+      "id": 42208,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1511,
+      "y": 3592,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1507,
+      "y": 3592,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 27199,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1507,
+      "y": 3592,
+      "plane": 2
+    },
+    "destination": {
+      "x": 1511,
+      "y": 3592,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 27200,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2522,
+      "y": 3375,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2523,
+      "y": 3375,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Loose Railing",
+      "id": 19171,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 2523,
+      "y": 3375,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2522,
+      "y": 3375,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Loose Railing",
+      "id": 19171,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 2458,
+      "y": 3185,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2355,
+      "y": 9394,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 25432,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2355,
+      "y": 9394,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2458,
+      "y": 3185,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 25429,
+      "action": "Climb up"
+    }
+  },
+  {
+    "source": {
+      "x": 2335,
+      "y": 9350,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2439,
+      "y": 3164,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 25429,
+      "action": "Climb up"
+    }
+  },
+  {
+    "source": {
+      "x": 2439,
+      "y": 3164,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2335,
+      "y": 9350,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 25434,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2449,
+      "y": 3155,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2444,
+      "y": 3165,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 5810,
+          "value": 1
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Rope",
+      "id": 31849,
+      "action": "Climb"
     }
   }
 
