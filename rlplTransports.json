@@ -129690,6 +129690,98 @@
       "id": 31849,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 2471,
+      "y": 3426,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2471,
+      "y": 3423,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Obstacle net",
+      "id": 23134,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 2472,
+      "y": 3422,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2473,
+      "y": 3420,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Tree branch",
+      "id": 23559,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2477,
+      "y": 3420,
+      "plane": 2
+    },
+    "destination": {
+      "x": 2483,
+      "y": 3420,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Balancing rope",
+      "id": 23557,
+      "action": "Walk-on"
+    }
+  },
+  {
+    "source": {
+      "x": 2485,
+      "y": 3419,
+      "plane": 2
+    },
+    "destination": {
+      "x": 2487,
+      "y": 3420,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Tree branch",
+      "id": 23560,
+      "action": "Climb-down"
+    }
   }
 
 ]
