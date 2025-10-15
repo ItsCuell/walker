@@ -129782,6 +129782,29 @@
       "id": 23560,
       "action": "Climb-down"
     }
+  },
+  {
+    "source": {
+      "x": 2737,
+      "y": 3580,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2736,
+      "y": 3580,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 25682,
+      "action": "Climb-up"
+    }
   }
 
 ]
