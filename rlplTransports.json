@@ -129808,139 +129808,302 @@
   },
   
   {
-    "source": { "x": 3097, "y": 9763, "plane": 0 },
-    "destination": { "x": 3097, "y": 9762, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 143, "action": "Open" }
-  },
-  {
-    "source": { "x": 3097, "y": 9762, "plane": 0 },
-    "destination": { "x": 3097, "y": 9763, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 143, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3100, "y": 9755, "plane": 0 },
-    "destination": { "x": 3099, "y": 9755, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 141, "action": "Open" }
-  },
-  {
-    "source": { "x": 3099, "y": 9755, "plane": 0 },
-    "destination": { "x": 3100, "y": 9755, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 141, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3100, "y": 9760, "plane": 0 },
-    "destination": { "x": 3099, "y": 9760, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 140, "action": "Open" }
-  },
-  {
-    "source": { "x": 3099, "y": 9760, "plane": 0 },
-    "destination": { "x": 3100, "y": 9760, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 140, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3100, "y": 9765, "plane": 0 },
-    "destination": { "x": 3099, "y": 9765, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 138, "action": "Open" }
-  },
-  {
-    "source": { "x": 3099, "y": 9765, "plane": 0 },
-    "destination": { "x": 3100, "y": 9765, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 138, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3102, "y": 9758, "plane": 0 },
-    "destination": { "x": 3102, "y": 9757, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 145, "action": "Open" }
-  },
-  {
-    "source": { "x": 3102, "y": 9757, "plane": 0 },
-    "destination": { "x": 3102, "y": 9758, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 145, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3102, "y": 9763, "plane": 0 },
-    "destination": { "x": 3102, "y": 9762, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 142, "action": "Open" }
-  },
-  {
-    "source": { "x": 3102, "y": 9762, "plane": 0 },
-    "destination": { "x": 3102, "y": 9763, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 142, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3105, "y": 9760, "plane": 0 },
-    "destination": { "x": 3104, "y": 9760, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 139, "action": "Open" }
-  },
-  {
-    "source": { "x": 3104, "y": 9760, "plane": 0 },
-    "destination": { "x": 3105, "y": 9760, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 139, "action": "Open" }
-  },
-
-  {
-    "source": { "x": 3105, "y": 9765, "plane": 0 },
-    "destination": { "x": 3104, "y": 9765, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 137, "action": "Open" }
-  },
-  {
-    "source": { "x": 3104, "y": 9765, "plane": 0 },
-    "destination": { "x": 3105, "y": 9765, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
-    "type": "OBJECT",
-    "data": { "name": "Door", "id": 137, "action": "Open" }
-  },
-
-  {
     "source": { "x": 3108, "y": 9758, "plane": 0 },
     "destination": { "x": 3108, "y": 9757, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1789, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
     "type": "OBJECT",
     "data": { "name": "Door", "id": 144, "action": "Open" }
   },
   {
     "source": { "x": 3108, "y": 9757, "plane": 0 },
     "destination": { "x": 3108, "y": 9758, "plane": 0 },
-    "requirements": { "miscRequirements": { "member": false } },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1789, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
     "type": "OBJECT",
     "data": { "name": "Door", "id": 144, "action": "Open" }
+  },
+  {
+    "source": { "x": 3105, "y": 9760, "plane": 0 },
+    "destination": { "x": 3104, "y": 9760, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 139, "action": "Open" }
+  },
+  {
+    "source": { "x": 3104, "y": 9760, "plane": 0 },
+    "destination": { "x": 3105, "y": 9760, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 139, "action": "Open" }
+  },
+  {
+    "source": { "x": 3102, "y": 9758, "plane": 0 },
+    "destination": { "x": 3102, "y": 9757, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1789, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 145, "action": "Open" }
+  },
+  {
+    "source": { "x": 3102, "y": 9757, "plane": 0 },
+    "destination": { "x": 3102, "y": 9758, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1789, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 145, "action": "Open" }
+  },
+  {
+    "source": { "x": 3102, "y": 9758, "plane": 0 },
+    "destination": { "x": 3102, "y": 9757, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 145, "action": "Open" }
+  },
+  {
+    "source": { "x": 3102, "y": 9757, "plane": 0 },
+    "destination": { "x": 3102, "y": 9758, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 145, "action": "Open" }
+  },
+  {
+    "source": { "x": 3100, "y": 9760, "plane": 0 },
+    "destination": { "x": 3099, "y": 9760, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1789, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 140, "action": "Open" }
+  },
+  {
+    "source": { "x": 3099, "y": 9760, "plane": 0 },
+    "destination": { "x": 3100, "y": 9760, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1789, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 140, "action": "Open" }
+  },
+  {
+    "source": { "x": 3097, "y": 9763, "plane": 0 },
+    "destination": { "x": 3097, "y": 9762, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 143, "action": "Open" }
+  },
+  {
+    "source": { "x": 3097, "y": 9762, "plane": 0 },
+    "destination": { "x": 3097, "y": 9763, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1788, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1791, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 143, "action": "Open" }
+  },
+  {
+    "source": { "x": 3100, "y": 9765, "plane": 0 },
+    "destination": { "x": 3099, "y": 9765, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 138, "action": "Open" }
+  },
+  {
+    "source": { "x": 3099, "y": 9765, "plane": 0 },
+    "destination": { "x": 3100, "y": 9765, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 138, "action": "Open" }
+  },
+  {
+    "source": { "x": 3100, "y": 9765, "plane": 0 },
+    "destination": { "x": 3099, "y": 9765, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 138, "action": "Open" }
+  },
+  {
+    "source": { "x": 3099, "y": 9765, "plane": 0 },
+    "destination": { "x": 3100, "y": 9765, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 138, "action": "Open" }
+  },
+  {
+    "source": { "x": 3105, "y": 9765, "plane": 0 },
+    "destination": { "x": 3104, "y": 9765, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 137, "action": "Open" }
+  },
+  {
+    "source": { "x": 3104, "y": 9765, "plane": 0 },
+    "destination": { "x": 3105, "y": 9765, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 137, "action": "Open" }
+  },
+  {
+    "source": { "x": 3102, "y": 9763, "plane": 0 },
+    "destination": { "x": 3102, "y": 9762, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 142, "action": "Open" }
+  },
+  {
+    "source": { "x": 3102, "y": 9762, "plane": 0 },
+    "destination": { "x": 3102, "y": 9763, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 142, "action": "Open" }
+  },
+  {
+    "source": { "x": 3100, "y": 9755, "plane": 0 },
+    "destination": { "x": 3099, "y": 9755, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 141, "action": "Open" }
+  },
+  {
+    "source": { "x": 3099, "y": 9755, "plane": 0 },
+    "destination": { "x": 3100, "y": 9755, "plane": 0 },
+    "requirements": {
+      "varRequirements": [
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1790, "value": 1 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1792, "value": 0 },
+        { "comparison": "EQUAL", "type": "VARBIT", "var": 1793, "value": 1 }
+      ],
+      "miscRequirements": { "member": false }
+    },
+    "type": "OBJECT",
+    "data": { "name": "Door", "id": 141, "action": "Open" }
   }
+
 
 
 
