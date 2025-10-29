@@ -96010,8 +96010,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 69
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -96032,8 +96038,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 69
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -96054,14 +96066,104 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
       "id": 27984,
       "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1769,
+      "y": 3849,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1774,
+      "y": 3849,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 27988,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1774,
+      "y": 3849,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1769,
+      "y": 3849,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 27987,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1776,
+      "y": 3884,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1776,
+      "y": 3880,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 49
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 27990,
+      "action": "Jump"
     }
   },
   {
