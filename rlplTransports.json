@@ -3399,12 +3399,12 @@
   {
     "source": {
       "x": 3070,
-      "y": 3260,
+      "y": 3257,
       "plane": 0
     },
     "destination": {
-      "x": 3064,
-      "y": 3260,
+      "x": 3066,
+      "y": 3257,
       "plane": 0
     },
     "requirements": {
@@ -3414,16 +3414,8 @@
           "level": 42
         }
       ],
-      "varRequirements": [
-        {
-          "comparison": "EQUAL",
-          "type": "VARBIT",
-          "var": 4536,
-          "value": 1
-        }
-      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -3434,13 +3426,13 @@
   },
   {
     "source": {
-      "x": 3065,
-      "y": 3260,
+      "x": 3066,
+      "y": 3257,
       "plane": 0
     },
     "destination": {
-      "x": 3071,
-      "y": 3260,
+      "x": 3070,
+      "y": 3257,
       "plane": 0
     },
     "requirements": {
@@ -3450,16 +3442,8 @@
           "level": 42
         }
       ],
-      "varRequirements": [
-        {
-          "comparison": "EQUAL",
-          "type": "VARBIT",
-          "var": 4536,
-          "value": 1
-        }
-      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
