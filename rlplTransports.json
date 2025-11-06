@@ -12909,7 +12909,7 @@
     },
     "destination": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "requirements": {
@@ -12926,7 +12926,7 @@
   {
     "source": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "destination": {
@@ -31496,50 +31496,6 @@
     "data": {
       "id": 30938,
       "action": "Climb Up"
-    }
-  },
-  {
-    "source": {
-      "x": 2956,
-      "y": 3146,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2956,
-      "y": 3143,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 2081,
-      "action": "Cross"
-    }
-  },
-  {
-    "source": {
-      "x": 2956,
-      "y": 3143,
-      "plane": 1
-    },
-    "destination": {
-      "x": 2956,
-      "y": 3146,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 2082,
-      "action": "Cross"
     }
   },
   {
@@ -109139,8 +109095,8 @@
     },
     "destination": {
       "x": 2956,
-      "y": 3143,
-      "plane": 1
+      "y": 3146,
+      "plane": 0
     },
     "requirements": {
       "itemRequirements": [
@@ -109167,8 +109123,8 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3644,
-      "action": "Pay-fare"
+      "id": 14978,
+      "action": "Travel"
     }
   },
   {
@@ -109178,9 +109134,9 @@
       "plane": 0
     },
     "destination": {
-      "x": 3032,
+      "x": 3029,
       "y": 3217,
-      "plane": 1
+      "plane": 0
     },
     "requirements": {
       "itemRequirements": [
@@ -109207,8 +109163,8 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3648,
-      "action": "Pay-Fare"
+      "id": 14984,
+      "action": "Travel"
     }
   },
   {
@@ -109219,8 +109175,8 @@
     },
     "destination": {
       "x": 2956,
-      "y": 3143,
-      "plane": 1
+      "y": 3146,
+      "plane": 0
     },
     "requirements": {
       "itemRequirements": [
@@ -109262,9 +109218,9 @@
       "plane": 0
     },
     "destination": {
-      "x": 3032,
+      "x": 3029,
       "y": 3217,
-      "plane": 1
+      "plane": 0
     },
     "requirements": {
       "itemRequirements": [
@@ -109292,7 +109248,7 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3648,
+      "id": 14984,
       "action": "Talk-to",
       "dialog": [
         "Can I journey on this ship?",
@@ -110033,7 +109989,7 @@
     },
     "destination": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "requirements": {
@@ -110059,8 +110015,8 @@
   },
   {
     "source": {
-      "x": 2677,
-      "y": 3276,
+      "x": 2683,
+      "y": 3274,
       "plane": 0
     },
     "destination": {
@@ -110163,8 +110119,8 @@
   },
   {
     "source": {
-      "x": 2680,
-      "y": 3275,
+      "x": 2772,
+      "y": 3231,
       "plane": 0
     },
     "destination": {
@@ -110209,7 +110165,7 @@
     },
     "destination": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "requirements": {
@@ -130188,6 +130144,94 @@
     },
     "type": "OBJECT",
     "data": { "name": "Door", "id": 141, "action": "Open" }
+  },
+  {
+    "source": {
+      "x": 2768,
+      "y": 2757,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2768,
+      "y": 2756,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 29083,
+      "action": "Jump-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2768,
+      "y": 2755,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2768,
+      "y": 2756,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 29083,
+      "action": "Jump-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3143,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2081,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2956,
+      "y": 3143,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2082,
+      "action": "Cross"
+    }
   }
 
 
