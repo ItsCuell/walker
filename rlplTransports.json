@@ -130188,6 +130188,50 @@
       "id": 29083,
       "action": "Jump-to"
     }
+  },
+  {
+    "source": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3143,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2081,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2956,
+      "y": 3143,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2082,
+      "action": "Cross"
+    }
   }
 
 
