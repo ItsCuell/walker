@@ -109115,6 +109115,13 @@
           "states": [
             "FINISHED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109124,6 +109131,185 @@
     "type": "NPC",
     "data": {
       "id": 14978,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "Musa Point"
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "The Pandemonium"
+    }
+  },
+  {
+    "source": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 8631,
+      "action": "Port Sarim"
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3029,
+      "y": 3217,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14984,
       "action": "Travel"
     }
   },
@@ -109155,6 +109341,12 @@
           "states": [
             "FINISHED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109163,8 +109355,94 @@
     },
     "type": "NPC",
     "data": {
-      "id": 14984,
-      "action": "Travel"
+      "id": 14985,
+      "action": "Port Sarim"
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "The Pandemonium"
+    }
+  },
+  {
+    "source": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 8631,
+      "action": "Musa Point"
     }
   },
   {
@@ -109196,6 +109474,13 @@
             "IN_PROGRESS",
             "NOT_STARTED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109204,10 +109489,112 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3644,
+      "id": 14978,
       "action": "Talk-to",
       "dialog": [
         "Yes please."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "Talk-to",
+      "dialog": [
+        "Yes please.",
+        "I'd like to go to Musa Point."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "Talk-to",
+      "dialog": [
+        "Yes please.",
+        "I'd like to go to The Pandemonium."
       ]
     }
   },
@@ -109240,6 +109627,13 @@
             "IN_PROGRESS",
             "NOT_STARTED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109253,7 +109647,114 @@
       "dialog": [
         "Can I journey on this ship?",
         "Search away, I have nothing to hide.",
-        "Ok."
+        "Okay.",
+        "I'd like to go to Port Sarim."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3029,
+      "y": 3217,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "Talk-to",
+      "dialog": [
+        "Can I journey on this ship?",
+        "Search away, I have nothing to hide.",
+        "Okay.",
+        "I'd like to go to Port Sarim."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "Talk-to",
+      "dialog": [
+        "Can I journey on this ship?",
+        "Search away, I have nothing to hide.",
+        "Okay.",
+        "I'd like to go to The Pandemonium."
       ]
     }
   },
