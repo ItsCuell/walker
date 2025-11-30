@@ -130821,6 +130821,106 @@
       "id": 28858,
       "action": "Climb-down"
     }
+  },
+  {
+    "source": {
+      "x": 2083,
+      "y": 9203,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2075,
+      "y": 9203,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 84
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60146,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 2075,
+      "y": 9203,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2083,
+      "y": 9203,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 84
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60146,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 1942,
+      "y": 2805,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1957,
+      "y": 9190,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60166,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1957,
+      "y": 9190,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1942,
+      "y": 2805,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60167,
+      "action": "Exit"
+    }
   }
 
 
