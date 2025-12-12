@@ -123152,8 +123152,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 79
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -123198,8 +123204,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 79
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -130921,8 +130933,816 @@
       "id": 60167,
       "action": "Exit"
     }
+  },
+  {
+    "source": {
+      "x": 3355,
+      "y": 2830,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3355,
+      "y": 2833,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3355,
+      "y": 2840,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3355,
+      "y": 2843,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3355,
+      "y": 2848,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3355,
+      "y": 2850,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3363,
+      "y": 2851,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3368,
+      "y": 2851,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10860,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3375,
+      "y": 2845,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3375,
+      "y": 2840,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10868,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3375,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3375,
+      "y": 2834,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3372,
+      "y": 2832,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3367,
+      "y": 2832,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10882,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3364,
+      "y": 2832,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2832,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10886,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3357,
+      "y": 2832,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3357,
+      "y": 2835,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3357,
+      "y": 2836,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3357,
+      "y": 2841,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10884,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3357,
+      "y": 2846,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3357,
+      "y": 2849,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2849,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3364,
+      "y": 2849,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10861,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3367,
+      "y": 2849,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3370,
+      "y": 2849,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3372,
+      "y": 2841,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3372,
+      "y": 2836,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10860,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3371,
+      "y": 2834,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3369,
+      "y": 2834,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3366,
+      "y": 2834,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3363,
+      "y": 2834,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2834,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2837,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2838,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2840,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2842,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2847,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10888,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3370,
+      "y": 2843,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3370,
+      "y": 2840,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3370,
+      "y": 2835,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3365,
+      "y": 2835,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10868,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3361,
+      "y": 2836,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3041,
+      "y": 4695,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3041,
+      "y": 4696,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3041,
+      "y": 4699,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3041,
+      "y": 4701,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3043,
+      "y": 4701,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3048,
+      "y": 4701,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3048,
+      "y": 4698,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3048,
+      "y": 4697,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3048,
+      "y": 4694,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3048,
+      "y": 4694,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3046,
+      "y": 4694,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3043,
+      "y": 4694,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3043,
+      "y": 4697,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3043,
+      "y": 4699,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3046,
+      "y": 4699,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3046,
+      "y": 4699,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3046,
+      "y": 4696,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3045,
+      "y": 4696,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3364,
+      "y": 2830,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10855,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1934,
+      "y": 4420,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3288,
+      "y": 2801,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 20932,
+      "action": "Leave Tomb"
+    }
+  },
+    {
+    "source": {
+      "x": 3572,
+      "y": 4372,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2412,
+      "y": 4434,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 43118,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2580,
+      "y": 9520,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2580,
+      "y": 9512,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 40
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Balancing ledge",
+      "id": 23548,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 2580,
+      "y": 9512,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2580,
+      "y": 9520,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 40
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Balancing ledge",
+      "id": 23548,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 2572,
+      "y": 9500,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2588,
+      "y": 9573,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Chaos altar",
+      "id": 412,
+      "action": "Pray-at"
+    }
+  },
+  {
+    "source": {
+      "x": 2579,
+      "y": 9583,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2567,
+      "y": 9524,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 23562,
+      "action": "Climb-up"
+    }
   }
-
-
 
 ]
