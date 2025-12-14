@@ -131142,6 +131142,51 @@
       "id": 23562,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 3078,
+      "y": 3493,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3077,
+      "y": 9893,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Open trapdoor",
+      "id": 12266,
+      "action": "Go-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2521,
+      "y": 3494,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2521,
+      "y": 3494,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16683,
+      "action": "Climb-up"
+    }
   }
 
 ]
