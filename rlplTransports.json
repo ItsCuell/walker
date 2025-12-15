@@ -131255,6 +131255,28 @@
       "id": 12265,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 2637,
+      "y": 4684,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2638,
+      "y": 4684,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1518,
+      "action": "Open"
+    }
   }
 
 ]
