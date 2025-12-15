@@ -131187,6 +131187,74 @@
       "id": 16683,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 3582,
+      "y": 3264,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3582,
+      "y": 3263,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Broken fence",
+      "id": 18411,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3582,
+      "y": 3263,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3582,
+      "y": 3264,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Broken fence",
+      "id": 18411,
+      "action": "Climb-over"
+    },
+  },
+  {
+    "source": {
+      "x": 3077,
+      "y": 9893,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3078,
+      "y": 3493,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 12265,
+      "action": "Climb"
+    }
   }
 
 ]
