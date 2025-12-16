@@ -109602,7 +109602,30 @@
   },
   {
     "source": {
+      "x": 2800,
+      "y": 2758,
+      "plane": 0
+    },
+    "destination": {
       "x": 2802,
+      "y": 2759,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 5278,
+      "name": "Elder Guard",
+      "action": "Talk-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2801,
       "y": 2756,
       "plane": 0
     },
@@ -109613,14 +109636,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
-    "type": "OBJECT",
+    "type": "NPC",
     "data": {
       "id": 5278,
       "name": "Elder Guard",
-      "action": "Talk-to,null,null,null,null"
+      "action": "Talk-to"
     }
   },
   {
@@ -115536,11 +115559,11 @@
         "member": false
       }
     },
-    "type": "OBJECT",
+    "type": "NPC",
     "data": {
       "id": 5278,
       "name": "Elder Guard",
-      "action": "Talk-to,null,null,null,null"
+      "action": "Talk-to"
     }
   },
   {
@@ -131276,6 +131299,116 @@
     "data": {
       "id": 1518,
       "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 2633,
+      "y": 4682,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2634,
+      "y": 4682,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16671,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2796,
+      "y": 2797,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2796,
+      "y": 2793,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4755,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2796,
+      "y": 2793,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2796,
+      "y": 2797,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4756,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2799,
+      "y": 2797,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2799,
+      "y": 2793,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4755,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2799,
+      "y": 2793,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2799,
+      "y": 2797,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4756,
+      "action": "Climb-up"
     }
   }
 
