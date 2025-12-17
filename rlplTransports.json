@@ -104739,12 +104739,12 @@
         {
           "comparison": "GREATER_THAN_EQUAL",
           "type": "VARBIT",
-          "var": 14673,
+          "var": 4466,
           "value": 1
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -104767,14 +104767,14 @@
     "requirements": {
       "varRequirements": [
         {
-          "comparison": "LESS_THAN",
+          "comparison": "EQUAL",
           "type": "VARBIT",
-          "var": 14673,
-          "value": 3
+          "var": 4466,
+          "value": 0
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -104799,12 +104799,12 @@
         {
           "comparison": "GREATER_THAN_EQUAL",
           "type": "VARBIT",
-          "var": 14673,
+          "var": 4466,
           "value": 1
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
