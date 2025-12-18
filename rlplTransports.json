@@ -3399,12 +3399,12 @@
   {
     "source": {
       "x": 3070,
-      "y": 3260,
+      "y": 3257,
       "plane": 0
     },
     "destination": {
-      "x": 3064,
-      "y": 3260,
+      "x": 3066,
+      "y": 3257,
       "plane": 0
     },
     "requirements": {
@@ -3414,16 +3414,8 @@
           "level": 42
         }
       ],
-      "varRequirements": [
-        {
-          "comparison": "EQUAL",
-          "type": "VARBIT",
-          "var": 4536,
-          "value": 1
-        }
-      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -3434,13 +3426,13 @@
   },
   {
     "source": {
-      "x": 3065,
-      "y": 3260,
+      "x": 3066,
+      "y": 3257,
       "plane": 0
     },
     "destination": {
-      "x": 3071,
-      "y": 3260,
+      "x": 3070,
+      "y": 3257,
       "plane": 0
     },
     "requirements": {
@@ -3450,16 +3442,8 @@
           "level": 42
         }
       ],
-      "varRequirements": [
-        {
-          "comparison": "EQUAL",
-          "type": "VARBIT",
-          "var": 4536,
-          "value": 1
-        }
-      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -12925,7 +12909,7 @@
     },
     "destination": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "requirements": {
@@ -12942,7 +12926,7 @@
   {
     "source": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "destination": {
@@ -31512,50 +31496,6 @@
     "data": {
       "id": 30938,
       "action": "Climb Up"
-    }
-  },
-  {
-    "source": {
-      "x": 2956,
-      "y": 3146,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2956,
-      "y": 3143,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 2081,
-      "action": "Cross"
-    }
-  },
-  {
-    "source": {
-      "x": 2956,
-      "y": 3143,
-      "plane": 1
-    },
-    "destination": {
-      "x": 2956,
-      "y": 3146,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 2082,
-      "action": "Cross"
     }
   },
   {
@@ -96010,8 +95950,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 69
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -96032,8 +95978,14 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 69
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -96054,14 +96006,104 @@
       "plane": 0
     },
     "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 73
+        }
+      ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
       "id": 27984,
       "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1769,
+      "y": 3849,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1774,
+      "y": 3849,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 27988,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1774,
+      "y": 3849,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1769,
+      "y": 3849,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 27987,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1776,
+      "y": 3884,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1776,
+      "y": 3880,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 49
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 27990,
+      "action": "Jump"
     }
   },
   {
@@ -104697,12 +104739,12 @@
         {
           "comparison": "GREATER_THAN_EQUAL",
           "type": "VARBIT",
-          "var": 14673,
+          "var": 4466,
           "value": 1
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -104725,14 +104767,14 @@
     "requirements": {
       "varRequirements": [
         {
-          "comparison": "LESS_THAN",
+          "comparison": "EQUAL",
           "type": "VARBIT",
-          "var": 14673,
-          "value": 3
+          "var": 4466,
+          "value": 0
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -104757,12 +104799,12 @@
         {
           "comparison": "GREATER_THAN_EQUAL",
           "type": "VARBIT",
-          "var": 14673,
+          "var": 4466,
           "value": 1
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -109053,49 +109095,9 @@
     },
     "destination": {
       "x": 2956,
-      "y": 3143,
-      "plane": 1
-    },
-    "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            995
-          ],
-          "amount": 30,
-          "location": "INVENTORY",
-          "reduction": "AND"
-        }
-      ],
-      "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "FINISHED"
-          ]
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 3644,
-      "action": "Pay-fare"
-    }
-  },
-  {
-    "source": {
-      "x": 2954,
-      "y": 3147,
+      "y": 3146,
       "plane": 0
     },
-    "destination": {
-      "x": 3032,
-      "y": 3217,
-      "plane": 1
-    },
     "requirements": {
       "itemRequirements": [
         {
@@ -109113,6 +109115,13 @@
           "states": [
             "FINISHED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109121,8 +109130,8 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3648,
-      "action": "Pay-Fare"
+      "id": 14978,
+      "action": "Travel"
     }
   },
   {
@@ -109133,8 +109142,319 @@
     },
     "destination": {
       "x": 2956,
-      "y": 3143,
-      "plane": 1
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "Musa Point"
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "The Pandemonium"
+    }
+  },
+  {
+    "source": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 8631,
+      "action": "Port Sarim"
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3029,
+      "y": 3217,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14984,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3029,
+      "y": 3217,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "Port Sarim"
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "FINISHED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "The Pandemonium"
+    }
+  },
+  {
+    "source": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 8631,
+      "action": "Musa Point"
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
     },
     "requirements": {
       "itemRequirements": [
@@ -109154,6 +109474,13 @@
             "IN_PROGRESS",
             "NOT_STARTED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109162,10 +109489,112 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3644,
+      "id": 14978,
       "action": "Talk-to",
       "dialog": [
         "Yes please."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "Talk-to",
+      "dialog": [
+        "Yes please.",
+        "I'd like to go to Musa Point."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3027,
+      "y": 3218,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14979,
+      "action": "Talk-to",
+      "dialog": [
+        "Yes please.",
+        "I'd like to go to The Pandemonium."
       ]
     }
   },
@@ -109176,9 +109605,9 @@
       "plane": 0
     },
     "destination": {
-      "x": 3032,
+      "x": 3029,
       "y": 3217,
-      "plane": 1
+      "plane": 0
     },
     "requirements": {
       "itemRequirements": [
@@ -109198,6 +109627,13 @@
             "IN_PROGRESS",
             "NOT_STARTED"
           ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
         }
       ],
       "miscRequirements": {
@@ -109206,12 +109642,119 @@
     },
     "type": "NPC",
     "data": {
-      "id": 3648,
+      "id": 14984,
       "action": "Talk-to",
       "dialog": [
         "Can I journey on this ship?",
         "Search away, I have nothing to hide.",
-        "Ok."
+        "Okay.",
+        "I'd like to go to Port Sarim."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3029,
+      "y": 3217,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "Talk-to",
+      "dialog": [
+        "Can I journey on this ship?",
+        "Search away, I have nothing to hide.",
+        "Okay.",
+        "I'd like to go to Port Sarim."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 2954,
+      "y": 3147,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3065,
+      "y": 3002,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            995
+          ],
+          "amount": 30,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "PIRATES_TREASURE",
+          "states": [
+            "IN_PROGRESS",
+            "NOT_STARTED"
+          ]
+        },
+        {
+          "quest": "PANDEMONIUM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 14985,
+      "action": "Talk-to",
+      "dialog": [
+        "Can I journey on this ship?",
+        "Search away, I have nothing to hide.",
+        "Okay.",
+        "I'd like to go to The Pandemonium."
       ]
     }
   },
@@ -109560,7 +110103,30 @@
   },
   {
     "source": {
+      "x": 2800,
+      "y": 2758,
+      "plane": 0
+    },
+    "destination": {
       "x": 2802,
+      "y": 2759,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 5278,
+      "name": "Elder Guard",
+      "action": "Talk-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2801,
       "y": 2756,
       "plane": 0
     },
@@ -109571,14 +110137,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
-    "type": "OBJECT",
+    "type": "NPC",
     "data": {
       "id": 5278,
       "name": "Elder Guard",
-      "action": "Talk-to,null,null,null,null"
+      "action": "Talk-to"
     }
   },
   {
@@ -109947,7 +110513,7 @@
     },
     "destination": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "requirements": {
@@ -109973,8 +110539,8 @@
   },
   {
     "source": {
-      "x": 2677,
-      "y": 3276,
+      "x": 2683,
+      "y": 3274,
       "plane": 0
     },
     "destination": {
@@ -110077,8 +110643,8 @@
   },
   {
     "source": {
-      "x": 2680,
-      "y": 3275,
+      "x": 2772,
+      "y": 3231,
       "plane": 0
     },
     "destination": {
@@ -110123,7 +110689,7 @@
     },
     "destination": {
       "x": 2683,
-      "y": 3268,
+      "y": 3263,
       "plane": 1
     },
     "requirements": {
@@ -115494,11 +116060,11 @@
         "member": false
       }
     },
-    "type": "OBJECT",
+    "type": "NPC",
     "data": {
       "id": 5278,
       "name": "Elder Guard",
-      "action": "Talk-to,null,null,null,null"
+      "action": "Talk-to"
     }
   },
   {
@@ -122609,8 +123175,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 79
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -122655,8 +123227,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 79
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -130102,8 +130680,1337 @@
     },
     "type": "OBJECT",
     "data": { "name": "Door", "id": 141, "action": "Open" }
+  },
+  {
+    "source": {
+      "x": 2768,
+      "y": 2757,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2768,
+      "y": 2756,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 29083,
+      "action": "Jump-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2768,
+      "y": 2755,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2768,
+      "y": 2756,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 29083,
+      "action": "Jump-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3143,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2081,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2956,
+      "y": 3143,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2956,
+      "y": 3146,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2082,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1575,
+      "y": 3483,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1574,
+      "y": 3483,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 28857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1574,
+      "y": 3483,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1575,
+      "y": 3483,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 28858,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1575,
+      "y": 3493,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1574,
+      "y": 3493,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 28857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1574,
+      "y": 3493,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1575,
+      "y": 3493,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 28858,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2083,
+      "y": 9203,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2075,
+      "y": 9203,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 84
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60146,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 2075,
+      "y": 9203,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2083,
+      "y": 9203,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 84
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60146,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 1942,
+      "y": 2805,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1957,
+      "y": 9190,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60166,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1957,
+      "y": 9190,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1942,
+      "y": 2805,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60167,
+      "action": "Exit"
+    }
+  },
+  {
+    "source": {
+      "x": 3355,
+      "y": 2830,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3355,
+      "y": 2833,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3355,
+      "y": 2840,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3355,
+      "y": 2843,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3355,
+      "y": 2848,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3355,
+      "y": 2850,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3363,
+      "y": 2851,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3368,
+      "y": 2851,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10860,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3375,
+      "y": 2845,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3375,
+      "y": 2840,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10868,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3375,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3375,
+      "y": 2834,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3372,
+      "y": 2832,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3367,
+      "y": 2832,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10882,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3364,
+      "y": 2832,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2832,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10886,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3357,
+      "y": 2832,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3357,
+      "y": 2835,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3357,
+      "y": 2836,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3357,
+      "y": 2841,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10884,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3357,
+      "y": 2846,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3357,
+      "y": 2849,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2849,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3364,
+      "y": 2849,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10861,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3367,
+      "y": 2849,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3370,
+      "y": 2849,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3372,
+      "y": 2841,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3372,
+      "y": 2836,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10860,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3371,
+      "y": 2834,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3369,
+      "y": 2834,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3366,
+      "y": 2834,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3363,
+      "y": 2834,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2834,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2837,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2838,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2840,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 2842,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3359,
+      "y": 2847,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10888,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3370,
+      "y": 2843,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3370,
+      "y": 2840,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3370,
+      "y": 2835,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3365,
+      "y": 2835,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10868,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3361,
+      "y": 2836,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3041,
+      "y": 4695,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3041,
+      "y": 4696,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3041,
+      "y": 4699,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3041,
+      "y": 4701,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3043,
+      "y": 4701,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3048,
+      "y": 4701,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3048,
+      "y": 4698,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3048,
+      "y": 4697,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3048,
+      "y": 4694,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3048,
+      "y": 4694,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3046,
+      "y": 4694,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10865,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3043,
+      "y": 4694,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3043,
+      "y": 4697,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10857,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3043,
+      "y": 4699,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3046,
+      "y": 4699,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "WALK"
+  },
+  {
+    "source": {
+      "x": 3046,
+      "y": 4699,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3046,
+      "y": 4696,
+      "plane": 3
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10859,
+      "action": "Jump"
+    }
+  },
+  {
+    "source": {
+      "x": 3045,
+      "y": 4696,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3364,
+      "y": 2830,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 10855,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1934,
+      "y": 4420,
+      "plane": 3
+    },
+    "destination": {
+      "x": 3288,
+      "y": 2801,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 20932,
+      "action": "Leave Tomb"
+    }
+  },
+    {
+    "source": {
+      "x": 3572,
+      "y": 4372,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2412,
+      "y": 4434,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 43118,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2580,
+      "y": 9520,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2580,
+      "y": 9512,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 40
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Balancing ledge",
+      "id": 23548,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 2580,
+      "y": 9512,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2580,
+      "y": 9520,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 40
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Balancing ledge",
+      "id": 23548,
+      "action": "Walk-across"
+    }
+  },
+  {
+    "source": {
+      "x": 2572,
+      "y": 9500,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2588,
+      "y": 9573,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Chaos altar",
+      "id": 412,
+      "action": "Pray-at"
+    }
+  },
+  {
+    "source": {
+      "x": 2579,
+      "y": 9583,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2567,
+      "y": 9524,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 23562,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3078,
+      "y": 3493,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3077,
+      "y": 9893,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Open trapdoor",
+      "id": 12266,
+      "action": "Go-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2521,
+      "y": 3494,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2521,
+      "y": 3494,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16683,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3582,
+      "y": 3264,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3582,
+      "y": 3263,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Broken fence",
+      "id": 18411,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3582,
+      "y": 3263,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3582,
+      "y": 3264,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Broken fence",
+      "id": 18411,
+      "action": "Climb-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3077,
+      "y": 9893,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3078,
+      "y": 3493,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 12265,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2637,
+      "y": 4684,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2638,
+      "y": 4684,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1518,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 2633,
+      "y": 4682,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2634,
+      "y": 4682,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16671,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2796,
+      "y": 2797,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2796,
+      "y": 2793,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4755,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2796,
+      "y": 2793,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2796,
+      "y": 2797,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4756,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2799,
+      "y": 2797,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2799,
+      "y": 2793,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4755,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2799,
+      "y": 2793,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2799,
+      "y": 2797,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 4756,
+      "action": "Climb-up"
+    }
   }
-
-
 
 ]
