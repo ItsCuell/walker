@@ -132095,5 +132095,74 @@
       "id": 53255,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 3143,
+      "y": 3443,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3143,
+      "y": 3444,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            1949,
+            20205,
+            9803,
+            9801,
+            9802,
+            13106,
+            13107,
+            13281
+          ],
+          "amount": 1,
+          "location": "EQUIPMENT",
+          "reduction": "OR"
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "COOKING",
+          "level": 32
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 24958,
+      "name": "Door",
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3143,
+      "y": 3444,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3143,
+      "y": 3443,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 24958,
+      "name": "Door",
+      "action": "Open"
+    }
   }
 ]
