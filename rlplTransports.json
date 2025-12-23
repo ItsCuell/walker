@@ -132236,5 +132236,435 @@
       "id": 16468,
       "action": "Manoeuvre-past"
     }
+  },
+  {
+    "source": {
+      "x": 3180,
+      "y": 2431,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3180,
+      "y": 2435,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 50
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57928,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3180,
+      "y": 2435,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3180,
+      "y": 2431,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 50
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57927,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3212,
+      "y": 2395,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3206,
+      "y": 2395,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 61
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57936,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3206,
+      "y": 2395,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3212,
+      "y": 2395,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 61
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57936,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3235,
+      "y": 2390,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3235,
+      "y": 2386,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57931,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3235,
+      "y": 2386,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3235,
+      "y": 2390,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57932,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3254,
+      "y": 2398,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3260,
+      "y": 2398,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 57
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3260,
+      "y": 2398,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3254,
+      "y": 2398,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 57
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57952,
+      "action": "Travel",
+      "dialog": [
+        "Northern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57950,
+      "action": "Travel",
+      "dialog": [
+        "The Summer Shore."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57952,
+      "action": "Travel",
+      "dialog": [
+        "Eastern Coast."
+      ]
+    }
+  },
+    {
+    "source": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57951,
+      "action": "Travel",
+      "dialog": [
+        "The Summer Shore."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57951,
+      "action": "Travel",
+      "dialog": [
+        "Northern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57950,
+      "action": "Travel",
+      "dialog": [
+        "Eastern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3272,
+      "y": 2327,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3272,
+      "y": 2333,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 55
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3272,
+      "y": 2333,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3272,
+      "y": 2327,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 55
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
   }
 ]
