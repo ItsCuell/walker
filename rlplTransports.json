@@ -132164,5 +132164,77 @@
       "name": "Door",
       "action": "Open"
     }
+  },
+  {
+    "source": {
+      "x": 2926,
+      "y": 3522,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2928,
+      "y": 3520,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4462,
+          "value": 1
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 14
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16468,
+      "action": "Manoeuvre-past"
+    }
+  },
+  {
+    "source": {
+      "x": 2928,
+      "y": 3520,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2926,
+      "y": 3522,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4462,
+          "value": 1
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 14
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16468,
+      "action": "Manoeuvre-past"
+    }
   }
 ]
