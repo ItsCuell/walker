@@ -132666,5 +132666,131 @@
       "id": 57929,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 3236,
+      "y": 3458,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3237,
+      "y": 9858,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 882,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2875,
+      "y": 9799,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2875,
+      "y": 9798,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2117,
+      "action": "Search"
+    }
+  },
+  {
+    "source": {
+      "x": 2875,
+      "y": 9798,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2875,
+      "y": 9799,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2117,
+      "action": "Search"
+    }
+  },
+  {
+    "source": {
+      "x": 2893,
+      "y": 3507,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2893,
+      "y": 9907,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "HEROES_QUEST",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17384,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2893,
+      "y": 9907,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2893,
+      "y": 3507,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "HEROES_QUEST",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17387,
+      "action": "Climb-up"
+    }
   }
 ]
