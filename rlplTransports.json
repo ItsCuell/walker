@@ -132792,5 +132792,187 @@
       "id": 17387,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2840,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2840,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2911,
+      "y": 3226,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7958,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2909,
+      "y": 3230,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7958,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2911,
+      "y": 3226,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7967,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2909,
+      "y": 3230,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7967,
+      "action": "Travel"
+    }
   }
 ]
