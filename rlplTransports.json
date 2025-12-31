@@ -132974,5 +132974,44 @@
       "id": 7967,
       "action": "Travel"
     }
+  },
+  {
+    "source": {
+      "x": 3229,
+      "y": 3108,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3483,
+      "y": 9510,
+      "plane": 2
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4586,
+          "value": 0
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            954
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "ITEM_USE",
+    "data": {
+      "id": 3827
+    }
   }
 ]
