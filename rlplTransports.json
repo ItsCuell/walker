@@ -133585,5 +133585,49 @@
       "id": 31579,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58092,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58093,
+      "action": "Exit"
+    }
   }
 ]
