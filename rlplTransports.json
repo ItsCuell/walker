@@ -88871,7 +88871,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -88899,7 +88899,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -128515,7 +128515,15 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -128537,7 +128545,15 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
