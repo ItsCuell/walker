@@ -88871,7 +88871,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -88899,7 +88899,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -128515,7 +128515,15 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -128537,7 +128545,15 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -133513,6 +133529,105 @@
     "data": {
       "id": 58638,
       "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 1
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            1035,
+            1033
+          ],
+          "amount": 1,
+          "location": "EQUIPMENT",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31580,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31579,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58092,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58093,
+      "action": "Exit"
     }
   }
 ]
