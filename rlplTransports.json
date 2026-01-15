@@ -88871,7 +88871,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -88899,7 +88899,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -110643,8 +110643,8 @@
   },
   {
     "source": {
-      "x": 2772,
-      "y": 3231,
+      "x": 2683,
+      "y": 3274,
       "plane": 0
     },
     "destination": {
@@ -123279,12 +123279,35 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
       "id": 17403,
+      "name": "Gangplank",
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2674,
+      "y": 3144,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2674,
+      "y": 3141,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17402,
       "name": "Gangplank",
       "action": "Cross"
     }
@@ -124511,6 +124534,28 @@
   },
   {
     "source": {
+      "x": 2142,
+      "y": 3122,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2142,
+      "y": 3125,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17408,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 2157,
       "y": 3333,
       "plane": 1
@@ -124528,6 +124573,28 @@
     "type": "OBJECT",
     "data": {
       "id": 34949,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2157,
+      "y": 3330,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2157,
+      "y": 3333,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 34948,
       "action": "Cross"
     }
   },
@@ -124555,6 +124622,28 @@
   },
   {
     "source": {
+      "x": 1496,
+      "y": 3403,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1493,
+      "y": 3403,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50065,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 1811,
       "y": 3697,
       "plane": 1
@@ -124577,6 +124666,28 @@
   },
   {
     "source": {
+      "x": 1808,
+      "y": 3679,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1811,
+      "y": 3697,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50063,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 2592,
       "y": 2851,
       "plane": 1
@@ -124585,6 +124696,28 @@
       "x": 2589,
       "y": 2851,
       "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2589,
+      "y": 2851,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2592,
+      "y": 2851,
+      "plane": 1
     },
     "requirements": {
       "miscRequirements": {
@@ -124621,6 +124754,28 @@
   },
   {
     "source": {
+      "x": 1743,
+      "y": 3136,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1747,
+      "y": 3136,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50734,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 1514,
       "y": 2968,
       "plane": 1
@@ -124643,6 +124798,28 @@
   },
   {
     "source": {
+      "x": 1514,
+      "y": 2971,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1514,
+      "y": 2968,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50736,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 3705,
       "y": 3503,
       "plane": 1
@@ -124660,6 +124837,28 @@
     "type": "OBJECT",
     "data": {
       "id": 17393,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3702,
+      "y": 3503,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3705,
+      "y": 3503,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17392,
       "action": "Cross"
     }
   },
@@ -125358,6 +125557,28 @@
     "data": {
       "action": "Cross",
       "id": "55333"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 1455,
+      "y": 2968
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1458,
+      "y": 2968
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Cross",
+      "id": "55332"
     }
   },
   {
@@ -128294,7 +128515,15 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -128316,7 +128545,15 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -132235,6 +132472,1162 @@
     "data": {
       "id": 16468,
       "action": "Manoeuvre-past"
+    }
+  },
+  {
+    "source": {
+      "x": 3180,
+      "y": 2431,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3180,
+      "y": 2435,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 50
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57928,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3180,
+      "y": 2435,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3180,
+      "y": 2431,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 50
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57927,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3212,
+      "y": 2395,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3206,
+      "y": 2395,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 61
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57936,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3206,
+      "y": 2395,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3212,
+      "y": 2395,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 61
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57936,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3235,
+      "y": 2390,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3235,
+      "y": 2386,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57931,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3235,
+      "y": 2386,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3235,
+      "y": 2390,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57932,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3254,
+      "y": 2398,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3260,
+      "y": 2398,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 57
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3260,
+      "y": 2398,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3254,
+      "y": 2398,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 57
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57952,
+      "action": "Travel",
+      "dialog": [
+        "Northern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57950,
+      "action": "Travel",
+      "dialog": [
+        "The Summer Shore."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57952,
+      "action": "Travel",
+      "dialog": [
+        "Eastern Coast."
+      ]
+    }
+  },
+    {
+    "source": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57951,
+      "action": "Travel",
+      "dialog": [
+        "The Summer Shore."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57951,
+      "action": "Travel",
+      "dialog": [
+        "Northern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57950,
+      "action": "Travel",
+      "dialog": [
+        "Eastern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3272,
+      "y": 2327,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3272,
+      "y": 2333,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 55
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57930,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3272,
+      "y": 2333,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3272,
+      "y": 2327,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 55
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57929,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3236,
+      "y": 3458,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3237,
+      "y": 9858,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 882,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2875,
+      "y": 9799,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2875,
+      "y": 9798,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2117,
+      "action": "Search"
+    }
+  },
+  {
+    "source": {
+      "x": 2875,
+      "y": 9798,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2875,
+      "y": 9799,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2117,
+      "action": "Search"
+    }
+  },
+  {
+    "source": {
+      "x": 2893,
+      "y": 3507,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2893,
+      "y": 9907,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "HEROES_QUEST",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17384,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2893,
+      "y": 9907,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2893,
+      "y": 3507,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "HEROES_QUEST",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17387,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2840,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2840,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2911,
+      "y": 3226,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7958,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2909,
+      "y": 3230,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7958,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2911,
+      "y": 3226,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7967,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2909,
+      "y": 3230,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7967,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 3229,
+      "y": 3108,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3483,
+      "y": 9510,
+      "plane": 2
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4586,
+          "value": 0
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            954
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "ITEM_USE",
+    "data": {
+      "id": 3827
+    }
+  },
+  {
+    "source": {
+      "x": 1944,
+      "y": 2751,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1944,
+      "y": 2754,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60525,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1944,
+      "y": 2754,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1944,
+      "y": 2751,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60524,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1871,
+      "y": 3314,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1871,
+      "y": 3311,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60525,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1871,
+      "y": 3311,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1871,
+      "y": 3314,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60524,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3187,
+      "y": 2365,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3187,
+      "y": 2368,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60525,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3187,
+      "y": 2368,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3187,
+      "y": 2365,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60524,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3060,
+      "y": 3000,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3063,
+      "y": 3000,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60523,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3063,
+      "y": 3000,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3060,
+      "y": 3000,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60522,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2998,
+      "y": 3032,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3001,
+      "y": 3032,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17397,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3001,
+      "y": 3032,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2998,
+      "y": 3032,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17396,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2291,
+      "y": 2796,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2321,
+      "y": 2779,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 18356,
+          "value": 1
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58639,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2321,
+      "y": 2779,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2291,
+      "y": 2796,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 18356,
+          "value": 1
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58638,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 1
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            1035,
+            1033
+          ],
+          "amount": 1,
+          "location": "EQUIPMENT",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31580,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31579,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58092,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58093,
+      "action": "Exit"
     }
   }
 ]
