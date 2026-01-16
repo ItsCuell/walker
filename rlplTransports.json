@@ -133341,5 +133341,77 @@
       "id": 58093,
       "action": "Exit"
     }
+  },
+  {
+    "source": {
+      "x": 2549,
+      "y": 3031,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2545,
+      "y": 3031,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 71
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "WATCHTOWER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 40356,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2545,
+      "y": 3031,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2549,
+      "y": 3031,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 71
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "WATCHTOWER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 40355,
+      "action": "Climb"
+    }
   }
 ]
