@@ -133413,5 +133413,87 @@
       "id": 40355,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 3104,
+      "y": 9573,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3615,
+      "y": 9470,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "TEMPLE_OF_THE_EYE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 43841,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3615,
+      "y": 9470,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3104,
+      "y": 9573,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "TEMPLE_OF_THE_EYE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 43692,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3238,
+      "y": 9499,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3240,
+      "y": 9499,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 6672,
+      "action": "Climb"
+    }
   }
 ]
