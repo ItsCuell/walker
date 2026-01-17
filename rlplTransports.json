@@ -133689,5 +133689,27 @@
       "id": 43692,
       "action": "Enter"
     }
+  },
+  {
+    "source": {
+      "x": 3238,
+      "y": 9499,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3240,
+      "y": 9499,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 6672,
+      "action": "Climb"
+    }
   }
 ]
