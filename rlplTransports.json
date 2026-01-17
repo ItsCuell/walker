@@ -46698,182 +46698,6 @@
   },
   {
     "source": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
       "x": 3427,
       "y": 3555,
       "plane": 1
@@ -47194,20 +47018,20 @@
   },
   {
     "source": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 1
+      "x": 3422,
+      "y": 3549,
+      "plane": 0
     },
     "destination": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 2
+      "x": 3422,
+      "y": 3549,
+      "plane": 1
     },
     "requirements": {
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 71
+          "level": 61
         }
       ],
       "miscRequirements": {
@@ -47222,132 +47046,20 @@
   },
   {
     "source": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 2
+      "x": 3422,
+      "y": 3549,
+      "plane": 1
     },
     "destination": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 1
+      "x": 3422,
+      "y": 3549,
+      "plane": 0
     },
     "requirements": {
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 2
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 2
-    },
-    "destination": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 1
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 2
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 2
-    },
-    "destination": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 1
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
+          "level": 61
         }
       ],
       "miscRequirements": {
@@ -133628,6 +133340,78 @@
     "data": {
       "id": 58093,
       "action": "Exit"
+    }
+  },
+  {
+    "source": {
+      "x": 2549,
+      "y": 3031,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2545,
+      "y": 3031,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 71
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "WATCHTOWER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 40356,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2545,
+      "y": 3031,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2549,
+      "y": 3031,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 71
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "WATCHTOWER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 40355,
+      "action": "Climb"
     }
   },
   {
