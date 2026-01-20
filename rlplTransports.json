@@ -128003,7 +128003,13 @@
             "FINISHED"
           ]
         }
-      ]
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 59
+          }
+        ]
     },
     "type": "OBJECT",
     "data": {
@@ -128033,7 +128039,13 @@
             "FINISHED"
           ]
         }
-      ]
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 59
+          }
+        ]
     },
     "type": "OBJECT",
     "data": {
