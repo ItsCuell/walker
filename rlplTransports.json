@@ -20591,6 +20591,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2309,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20789,6 +20797,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2310,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20855,6 +20871,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2311,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -21141,6 +21165,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2312,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
