@@ -20945,6 +20945,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2311,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20989,6 +20997,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2311,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
