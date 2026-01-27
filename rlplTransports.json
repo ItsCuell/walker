@@ -8169,7 +8169,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8251,7 +8251,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8281,7 +8281,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8311,7 +8311,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8341,7 +8341,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8371,7 +8371,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8401,7 +8401,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8431,7 +8431,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8461,7 +8461,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8491,7 +8491,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8521,7 +8521,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8551,7 +8551,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -8581,7 +8581,7 @@
       "miscRequirements": {
         "member": false
       },
-            "varRequirements": [
+      "varRequirements": [
         {
           "comparison": "LESS_THAN",
           "type": "VARBIT",
@@ -20591,6 +20591,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2309,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20789,6 +20797,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2310,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20855,6 +20871,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2311,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20921,6 +20945,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2311,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -20965,6 +20997,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2311,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -21141,6 +21181,14 @@
       "plane": 0
     },
     "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 2312,
+          "value": 1
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
@@ -28575,12 +28623,12 @@
       "plane": 0
     },
     "requirements": {
-		"questRequirements": [
+      "questRequirements": [
         {
           "quest": "WATERFALL_QUEST",
           "states": [
             "IN_PROGRESS",
-			"FINISHED"
+            "FINISHED"
           ]
         }
       ],
@@ -28606,12 +28654,12 @@
       "plane": 0
     },
     "requirements": {
-		"questRequirements": [
+      "questRequirements": [
         {
           "quest": "WATERFALL_QUEST",
           "states": [
             "IN_PROGRESS",
-			"FINISHED"
+            "FINISHED"
           ]
         }
       ],
@@ -28637,12 +28685,12 @@
       "plane": 0
     },
     "requirements": {
-		"questRequirements": [
+      "questRequirements": [
         {
           "quest": "WATERFALL_QUEST",
           "states": [
             "IN_PROGRESS",
-			"FINISHED"
+            "FINISHED"
           ]
         }
       ],
@@ -46698,182 +46746,6 @@
   },
   {
     "source": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 1
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3421,
-      "y": 3550,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3551,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3422,
-      "y": 3549,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3423,
-      "y": 3550,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
       "x": 3427,
       "y": 3555,
       "plane": 1
@@ -47194,20 +47066,20 @@
   },
   {
     "source": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 1
+      "x": 3422,
+      "y": 3549,
+      "plane": 0
     },
     "destination": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 2
+      "x": 3422,
+      "y": 3549,
+      "plane": 1
     },
     "requirements": {
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 71
+          "level": 61
         }
       ],
       "miscRequirements": {
@@ -47222,132 +47094,20 @@
   },
   {
     "source": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 2
+      "x": 3422,
+      "y": 3549,
+      "plane": 1
     },
     "destination": {
-      "x": 3446,
-      "y": 3576,
-      "plane": 1
+      "x": 3422,
+      "y": 3549,
+      "plane": 0
     },
     "requirements": {
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 2
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 2
-    },
-    "destination": {
-      "x": 3447,
-      "y": 3577,
-      "plane": 1
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16538,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 1
-    },
-    "destination": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 2
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 16537,
-      "action": "Climb-up"
-    }
-  },
-  {
-    "source": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 2
-    },
-    "destination": {
-      "x": 3448,
-      "y": 3576,
-      "plane": 1
-    },
-    "requirements": {
-      "skillRequirements": [
-        {
-          "skill": "AGILITY",
-          "level": 71
+          "level": 61
         }
       ],
       "miscRequirements": {
@@ -88871,7 +88631,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -88899,7 +88659,7 @@
       "skillRequirements": [
         {
           "skill": "AGILITY",
-          "level": 81
+          "level": 43
         }
       ],
       "miscRequirements": {
@@ -109158,12 +108918,6 @@
       ],
       "questRequirements": [
         {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "FINISHED"
-          ]
-        },
-        {
           "quest": "PANDEMONIUM",
           "states": [
             "FINISHED"
@@ -109203,12 +108957,6 @@
         }
       ],
       "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "FINISHED"
-          ]
-        },
         {
           "quest": "PANDEMONIUM",
           "states": [
@@ -109337,12 +109085,6 @@
       ],
       "questRequirements": [
         {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "FINISHED"
-          ]
-        },
-        {
           "quest": "PANDEMONIUM",
           "states": [
             "FINISHED"
@@ -109382,12 +109124,6 @@
         }
       ],
       "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "FINISHED"
-          ]
-        },
         {
           "quest": "PANDEMONIUM",
           "states": [
@@ -109498,108 +109234,6 @@
   },
   {
     "source": {
-      "x": 3027,
-      "y": 3218,
-      "plane": 0
-    },
-    "destination": {
-      "x": 2956,
-      "y": 3146,
-      "plane": 0
-    },
-    "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            995
-          ],
-          "amount": 30,
-          "location": "INVENTORY",
-          "reduction": "AND"
-        }
-      ],
-      "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "IN_PROGRESS",
-            "NOT_STARTED"
-          ]
-        },
-        {
-          "quest": "PANDEMONIUM",
-          "states": [
-            "FINISHED"
-          ]
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 14979,
-      "action": "Talk-to",
-      "dialog": [
-        "Yes please.",
-        "I'd like to go to Musa Point."
-      ]
-    }
-  },
-  {
-    "source": {
-      "x": 3027,
-      "y": 3218,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3065,
-      "y": 3002,
-      "plane": 0
-    },
-    "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            995
-          ],
-          "amount": 30,
-          "location": "INVENTORY",
-          "reduction": "AND"
-        }
-      ],
-      "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "IN_PROGRESS",
-            "NOT_STARTED"
-          ]
-        },
-        {
-          "quest": "PANDEMONIUM",
-          "states": [
-            "FINISHED"
-          ]
-        }
-      ],
-      "miscRequirements": {
-        "member": true
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 14979,
-      "action": "Talk-to",
-      "dialog": [
-        "Yes please.",
-        "I'd like to go to The Pandemonium."
-      ]
-    }
-  },
-  {
-    "source": {
       "x": 2954,
       "y": 3147,
       "plane": 0
@@ -109646,115 +109280,9 @@
       "action": "Talk-to",
       "dialog": [
         "Can I journey on this ship?",
-        "Search away, I have nothing to hide.",
+        "Search away. I have nothing to hide.",
         "Okay.",
         "I'd like to go to Port Sarim."
-      ]
-    }
-  },
-  {
-    "source": {
-      "x": 2954,
-      "y": 3147,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3029,
-      "y": 3217,
-      "plane": 0
-    },
-    "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            995
-          ],
-          "amount": 30,
-          "location": "INVENTORY",
-          "reduction": "AND"
-        }
-      ],
-      "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "IN_PROGRESS",
-            "NOT_STARTED"
-          ]
-        },
-        {
-          "quest": "PANDEMONIUM",
-          "states": [
-            "FINISHED"
-          ]
-        }
-      ],
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 14985,
-      "action": "Talk-to",
-      "dialog": [
-        "Can I journey on this ship?",
-        "Search away, I have nothing to hide.",
-        "Okay.",
-        "I'd like to go to Port Sarim."
-      ]
-    }
-  },
-  {
-    "source": {
-      "x": 2954,
-      "y": 3147,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3065,
-      "y": 3002,
-      "plane": 0
-    },
-    "requirements": {
-      "itemRequirements": [
-        {
-          "ids": [
-            995
-          ],
-          "amount": 30,
-          "location": "INVENTORY",
-          "reduction": "AND"
-        }
-      ],
-      "questRequirements": [
-        {
-          "quest": "PIRATES_TREASURE",
-          "states": [
-            "IN_PROGRESS",
-            "NOT_STARTED"
-          ]
-        },
-        {
-          "quest": "PANDEMONIUM",
-          "states": [
-            "FINISHED"
-          ]
-        }
-      ],
-      "miscRequirements": {
-        "member": true
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 14985,
-      "action": "Talk-to",
-      "dialog": [
-        "Can I journey on this ship?",
-        "Search away, I have nothing to hide.",
-        "Okay.",
-        "I'd like to go to The Pandemonium."
       ]
     }
   },
@@ -110643,8 +110171,8 @@
   },
   {
     "source": {
-      "x": 2772,
-      "y": 3231,
+      "x": 2683,
+      "y": 3274,
       "plane": 0
     },
     "destination": {
@@ -117600,7 +117128,7 @@
       "action": "Top-floor"
     }
   },
-  
+
   {
     "source": {
       "x": 2506,
@@ -118442,8 +117970,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 45
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -118465,8 +117999,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 45
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -118795,52 +118335,6 @@
       "id": 3936,
       "name": "Sailor",
       "action": "Miscellania"
-    }
-  },
-  {
-    "source": {
-      "x": 1724,
-      "y": 3551,
-      "plane": 0
-    },
-    "destination": {
-      "x": 1720,
-      "y": 3551,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 29728,
-      "name": "Stepping stone",
-      "action": "Cross"
-    }
-  },
-  {
-    "source": {
-      "x": 1720,
-      "y": 3551,
-      "plane": 0
-    },
-    "destination": {
-      "x": 1724,
-      "y": 3551,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 29728,
-      "name": "Stepping stone",
-      "action": "Cross"
     }
   },
   {
@@ -120127,7 +119621,7 @@
       "plane": 0
     },
     "requirements": {
-		"questRequirements": [
+      "questRequirements": [
         {
           "quest": "THE_GIANT_DWARF",
           "states": [
@@ -123279,12 +122773,35 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
     "data": {
       "id": 17403,
+      "name": "Gangplank",
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2674,
+      "y": 3144,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2674,
+      "y": 3141,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17402,
       "name": "Gangplank",
       "action": "Cross"
     }
@@ -124511,6 +124028,28 @@
   },
   {
     "source": {
+      "x": 2142,
+      "y": 3122,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2142,
+      "y": 3125,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17408,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 2157,
       "y": 3333,
       "plane": 1
@@ -124528,6 +124067,28 @@
     "type": "OBJECT",
     "data": {
       "id": 34949,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2157,
+      "y": 3330,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2157,
+      "y": 3333,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 34948,
       "action": "Cross"
     }
   },
@@ -124555,6 +124116,28 @@
   },
   {
     "source": {
+      "x": 1496,
+      "y": 3403,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1493,
+      "y": 3403,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50065,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 1811,
       "y": 3697,
       "plane": 1
@@ -124577,6 +124160,28 @@
   },
   {
     "source": {
+      "x": 1808,
+      "y": 3679,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1811,
+      "y": 3697,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50063,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 2592,
       "y": 2851,
       "plane": 1
@@ -124585,6 +124190,28 @@
       "x": 2589,
       "y": 2851,
       "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2589,
+      "y": 2851,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2592,
+      "y": 2851,
+      "plane": 1
     },
     "requirements": {
       "miscRequirements": {
@@ -124621,6 +124248,28 @@
   },
   {
     "source": {
+      "x": 1743,
+      "y": 3136,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1747,
+      "y": 3136,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50734,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 1514,
       "y": 2968,
       "plane": 1
@@ -124643,6 +124292,28 @@
   },
   {
     "source": {
+      "x": 1514,
+      "y": 2971,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1514,
+      "y": 2968,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 50736,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
       "x": 3705,
       "y": 3503,
       "plane": 1
@@ -124660,6 +124331,28 @@
     "type": "OBJECT",
     "data": {
       "id": 17393,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3702,
+      "y": 3503,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3705,
+      "y": 3503,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17392,
       "action": "Cross"
     }
   },
@@ -124719,7 +124412,7 @@
       "plane": 0
     },
     "requirements": {
-		"skillRequirements": [
+      "skillRequirements": [
         {
           "skill": "AGILITY",
           "level": 70
@@ -124747,7 +124440,7 @@
       "plane": 0
     },
     "requirements": {
-		"skillRequirements": [
+      "skillRequirements": [
         {
           "skill": "AGILITY",
           "level": 70
@@ -125358,6 +125051,28 @@
     "data": {
       "action": "Cross",
       "id": "55333"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 1455,
+      "y": 2968
+    },
+    "destination": {
+      "plane": 1,
+      "x": 1458,
+      "y": 2968
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Cross",
+      "id": "55332"
     }
   },
   {
@@ -126782,14 +126497,14 @@
       "plane": 0
     },
     "requirements": {
-        "questRequirements": [
-          {
-            "quest": "HORROR_FROM_THE_DEEP",
-            "states": [
-              "FINISHED"
-            ]
-          }
-        ],
+      "questRequirements": [
+        {
+          "quest": "HORROR_FROM_THE_DEEP",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -126845,7 +126560,7 @@
     }
   },
   {
-    "source": {  
+    "source": {
       "plane": 0,
       "x": 2565,
       "y": 3356
@@ -126873,7 +126588,7 @@
     }
   },
   {
-    "source": {  
+    "source": {
       "plane": 0,
       "x": 2564,
       "y": 3356
@@ -126895,7 +126610,7 @@
     }
   },
   {
-    "source": {  
+    "source": {
       "plane": 0,
       "x": 2846,
       "y": 10333
@@ -126907,14 +126622,14 @@
     },
     "requirements": {
       "questRequirements": [
-          {
-            "quest": "SECRETS_OF_THE_NORTH",
-            "states": [
-              "IN_PROGRESS",
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "SECRETS_OF_THE_NORTH",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -126931,21 +126646,21 @@
       "x": 2902,
       "y": 10337
     },
-    "destination": {  
+    "destination": {
       "plane": 0,
       "x": 2846,
       "y": 10333
     },
     "requirements": {
       "questRequirements": [
-          {
-            "quest": "SECRETS_OF_THE_NORTH",
-            "states": [
-              "IN_PROGRESS",
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "SECRETS_OF_THE_NORTH",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -126962,20 +126677,20 @@
       "x": 2865,
       "y": 3938
     },
-    "destination": {  
+    "destination": {
       "plane": 0,
       "x": 2866,
       "y": 3938
     },
     "requirements": {
       "questRequirements": [
-          {
-            "quest": "MAKING_FRIENDS_WITH_MY_ARM",
-            "states": [
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -126987,7 +126702,7 @@
     }
   },
   {
-    "source": {  
+    "source": {
       "plane": 0,
       "x": 2866,
       "y": 3938
@@ -126999,13 +126714,13 @@
     },
     "requirements": {
       "questRequirements": [
-          {
-            "quest": "MAKING_FRIENDS_WITH_MY_ARM",
-            "states": [
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -127017,149 +126732,149 @@
     }
   },
   {
-  "source": {  
-    "plane": 0,
-    "x": 3657,
-    "y": 3407
-  },
-  "destination": {
-    "plane": 0,
-    "x": 3679,
-    "y": 9797
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
-    }
-  },
-  "type": "OBJECT",
-  "data": {
-    "action": "Enter",
-    "id": "42594"
-  }
-},
-{
-  "source": {  
-    "plane": 0,
-    "x": 3679,
-    "y": 9797
-  },
-  "destination": {
-    "plane": 0,
-    "x": 3658,
-    "y": 3407
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
-    }
-  },
-  "type": "OBJECT",
-  "data": {
-    "action": "Exit",
-    "id": "42595"
-  }
-},
-{
-  "source": {  
-    "plane": 2,
-    "x": 2885,
-    "y": 5332
-  },
-  "destination": {
-    "plane": 2,
-    "x": 2885,
-    "y": 5345
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
+    "source": {
+      "plane": 0,
+      "x": 3657,
+      "y": 3407
     },
-    "skillRequirements": [
-      {
-        "skill": "HITPOINTS",
-        "level": 70
-      }
-    ]
-  },
-  "type": "OBJECT",
-  "data": {
-    "action": "Climb-off",
-    "id": "26518"
-  }
-},
-{
-  "source": { 
-    "plane": 2,
-    "x": 2885,
-    "y": 5345 
-  },
-  "destination": {
-    "plane": 2,
-    "x": 2885,
-    "y": 5332
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
+    "destination": {
+      "plane": 0,
+      "x": 3679,
+      "y": 9797
     },
-    "skillRequirements": [
-      {
-        "skill": "HITPOINTS",
-        "level": 70
+    "requirements": {
+      "miscRequirements": {
+        "member": true
       }
-    ]
-  },
-  "type": "OBJECT",
-  "data": {
-    "action": "Climb-off",
-    "id": "26518"
-  }
-},
-{
-  "source": {  
-    "plane": 0,
-    "x": 2379,
-    "y": 9452
-  },
-  "destination": {
-    "plane": 0,
-    "x": 2376,
-    "y": 9452
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Enter",
+      "id": "42594"
     }
   },
-  "type": "OBJECT",
-  "data": {
-    "action": "Use",
-    "id": "535"
-  }
-},
-{
-  "source": {  
-    "plane": 0,
-    "x": 2376,
-    "y": 9452
-  },
-  "destination": {
-    "plane": 0,
-    "x": 2379,
-    "y": 9452
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
+  {
+    "source": {
+      "plane": 0,
+      "x": 3679,
+      "y": 9797
+    },
+    "destination": {
+      "plane": 0,
+      "x": 3658,
+      "y": 3407
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Exit",
+      "id": "42595"
     }
   },
-  "type": "OBJECT",
-  "data": {
-    "action": "Use",
-    "id": "536"
-  }
-},
+  {
+    "source": {
+      "plane": 2,
+      "x": 2885,
+      "y": 5332
+    },
+    "destination": {
+      "plane": 2,
+      "x": 2885,
+      "y": 5345
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "HITPOINTS",
+          "level": 70
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-off",
+      "id": "26518"
+    }
+  },
+  {
+    "source": {
+      "plane": 2,
+      "x": 2885,
+      "y": 5345
+    },
+    "destination": {
+      "plane": 2,
+      "x": 2885,
+      "y": 5332
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "HITPOINTS",
+          "level": 70
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Climb-off",
+      "id": "26518"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2379,
+      "y": 9452
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2376,
+      "y": 9452
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Use",
+      "id": "535"
+    }
+  },
+  {
+    "source": {
+      "plane": 0,
+      "x": 2376,
+      "y": 9452
+    },
+    "destination": {
+      "plane": 0,
+      "x": 2379,
+      "y": 9452
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Use",
+      "id": "536"
+    }
+  },
   {
     "source": {
       "x": 2838,
@@ -127179,13 +126894,13 @@
         }
       ],
       "questRequirements": [
-          {
-            "quest": "MY_ARMS_BIG_ADVENTURE",
-            "states": [
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "MY_ARMS_BIG_ADVENTURE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -127215,13 +126930,13 @@
         }
       ],
       "questRequirements": [
-          {
-            "quest": "MY_ARMS_BIG_ADVENTURE",
-            "states": [
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "MY_ARMS_BIG_ADVENTURE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -127251,13 +126966,13 @@
         }
       ],
       "questRequirements": [
-          {
-            "quest": "MY_ARMS_BIG_ADVENTURE",
-            "states": [
-              "FINISHED"
-            ]
-          }
-        ],
+        {
+          "quest": "MY_ARMS_BIG_ADVENTURE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": true
       }
@@ -127269,99 +126984,99 @@
     }
   },
   {
-  "source": {  
-    "plane": 0,
-    "x": 1271,
-    "y": 3436
-  },
-  "destination": {
-    "plane": 0,
-    "x": 1259,
-    "y": 3430
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
+    "source": {
+      "plane": 0,
+      "x": 1271,
+      "y": 3436
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1259,
+      "y": 3430
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "57220"
     }
   },
-  "type": "OBJECT",
-  "data": {
-    "action": "Pass-through",
-    "id": "57220"
-  }
-},
   {
-  "source": {  
-    "plane": 0,
-    "x": 1259,
-    "y": 3430
-  },
-  "destination": {
-    "plane": 0,
-    "x": 1271,
-    "y": 3436
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
+    "source": {
+      "plane": 0,
+      "x": 1259,
+      "y": 3430
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1271,
+      "y": 3436
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Pass-through",
+      "id": "57219"
     }
   },
-  "type": "OBJECT",
-  "data": {
-    "action": "Pass-through",
-    "id": "57219"
-  }
-},
-{
-  "source": {  
-    "plane": 0,
-    "x": 1256,
-    "y": 3395
-  },
-  "destination": {
-    "plane": 0,
-    "x": 1271,
-    "y": 3436
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
-    }
-  },
-  "type": "OBJECT",
-  "data": {
-    "action": "Travel",
-    "id": "57272",
-    "dialog": [
+  {
+    "source": {
+      "plane": 0,
+      "x": 1256,
+      "y": 3395
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1271,
+      "y": 3436
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Travel",
+      "id": "57272",
+      "dialog": [
         "Yes."
       ]
-  }
-},
-{
-  "source": {  
-    "plane": 0,
-    "x": 1271,
-    "y": 3436
-  },
-  "destination": {
-    "plane": 0,
-    "x": 1256,
-    "y": 3395
-  },
-  "requirements": {
-    "miscRequirements": {
-      "member": true
     }
   },
-  "type": "OBJECT",
-  "data": {
-    "action": "Travel",
-    "id": "57271",
-    "dialog": [
+  {
+    "source": {
+      "plane": 0,
+      "x": 1271,
+      "y": 3436
+    },
+    "destination": {
+      "plane": 0,
+      "x": 1256,
+      "y": 3395
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "action": "Travel",
+      "id": "57271",
+      "dialog": [
         "Yes."
       ]
-  }
-},
+    }
+  },
   {
     "source": {
       "x": 1401,
@@ -128294,7 +128009,21 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 59
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -128316,7 +128045,21 @@
     "requirements": {
       "miscRequirements": {
         "member": true
-      }
+      },
+      "questRequirements": [
+        {
+          "quest": "SHADOWS_OF_CUSTODIA",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 59
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -128324,7 +128067,7 @@
       "action": "Squeeze-through"
     }
   },
-    {
+  {
     "source": {
       "x": 1298,
       "y": 9780,
@@ -128368,7 +128111,7 @@
       "action": "Enter"
     }
   },
-    {
+  {
     "source": {
       "x": 1262,
       "y": 9758,
@@ -128412,7 +128155,7 @@
       "action": "Climb"
     }
   },
-    {
+  {
     "source": {
       "x": 1296,
       "y": 3375,
@@ -128717,8 +128460,8 @@
         {
           "skill": "AGILITY",
           "level": 15
-          }
-        ]
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -128756,18 +128499,18 @@
   },
   {
     "source": {
-       "x": 3045,
-       "y": 3956,
-       "plane": 0 },
+      "x": 3045,
+      "y": 3956,
+      "plane": 0 },
     "destination": {
-       "x": 3044,
-       "y": 3956,
-       "plane": 0 
-      },
+      "x": 3044,
+      "y": 3956,
+      "plane": 0
+    },
     "requirements": {
       "miscRequirements": {
-         "member": true
-        },
+        "member": true
+      },
       "itemRequirements": [
         {
           "ids": [1523],
@@ -128788,8 +128531,8 @@
     "source": {
       "x": 3044,
       "y": 3956,
-    "plane": 0
-  },
+      "plane": 0
+    },
     "destination": {
       "x": 3045,
       "y": 3956,
@@ -129222,7 +128965,7 @@
       "id": 57679,
       "action": "Climb-through"
     }
-  }, 
+  },
   {
     "source": {
       "x": 3442,
@@ -130384,7 +130127,7 @@
       "action": "Climb-up"
     }
   },
-  
+
   {
     "source": { "x": 3108, "y": 9758, "plane": 0 },
     "destination": { "x": 3108, "y": 9757, "plane": 0 },
@@ -131641,7 +131384,7 @@
       "action": "Leave Tomb"
     }
   },
-    {
+  {
     "source": {
       "x": 3572,
       "y": 4372,
@@ -132011,6 +131754,1760 @@
       "id": 4756,
       "action": "Climb-up"
     }
+  },
+  {
+    "source": {
+      "x": 3212,
+      "y": 3138,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3214,
+      "y": 3131,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 66
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16513,
+      "action": "Jump-to"
+    }
+  },
+  {
+    "source": {
+      "x": 3214,
+      "y": 3131,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3212,
+      "y": 3138,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 66
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16513,
+      "action": "Jump-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2946,
+      "y": 3439,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2943,
+      "y": 3439,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 66
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 53255,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3143,
+      "y": 3443,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3143,
+      "y": 3444,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            1949,
+            20205,
+            9803,
+            9801,
+            9802,
+            13106,
+            13107,
+            13281
+          ],
+          "amount": 1,
+          "location": "EQUIPMENT",
+          "reduction": "OR"
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "COOKING",
+          "level": 32
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 24958,
+      "name": "Door",
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3143,
+      "y": 3444,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3143,
+      "y": 3443,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 24958,
+      "name": "Door",
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 2926,
+      "y": 3522,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2928,
+      "y": 3520,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4462,
+          "value": 1
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 14
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16468,
+      "action": "Manoeuvre-past"
+    }
+  },
+  {
+    "source": {
+      "x": 2928,
+      "y": 3520,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2926,
+      "y": 3522,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4462,
+          "value": 1
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 14
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 16468,
+      "action": "Manoeuvre-past"
+    }
+  },
+  {
+    "source": {
+      "x": 3180,
+      "y": 2431,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3180,
+      "y": 2435,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 50
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57928,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3180,
+      "y": 2435,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3180,
+      "y": 2431,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 50
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57927,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3212,
+      "y": 2395,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3206,
+      "y": 2395,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 61
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57936,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3206,
+      "y": 2395,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3212,
+      "y": 2395,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 61
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57936,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3235,
+      "y": 2390,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3235,
+      "y": 2386,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57931,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3235,
+      "y": 2386,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3235,
+      "y": 2390,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 52
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57932,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3254,
+      "y": 2398,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3260,
+      "y": 2398,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 57
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3260,
+      "y": 2398,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3254,
+      "y": 2398,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 57
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57933,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57952,
+      "action": "Travel",
+      "dialog": [
+        "Northern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57950,
+      "action": "Travel",
+      "dialog": [
+        "The Summer Shore."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57952,
+      "action": "Travel",
+      "dialog": [
+        "Eastern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3191,
+      "y": 2370,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57951,
+      "action": "Travel",
+      "dialog": [
+        "The Summer Shore."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57951,
+      "action": "Travel",
+      "dialog": [
+        "Northern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3197,
+      "y": 2531,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3264,
+      "y": 2463,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57950,
+      "action": "Travel",
+      "dialog": [
+        "Eastern Coast."
+      ]
+    }
+  },
+  {
+    "source": {
+      "x": 3272,
+      "y": 2327,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3272,
+      "y": 2333,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 55
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57930,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3272,
+      "y": 2333,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3272,
+      "y": 2327,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 55
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 57929,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3236,
+      "y": 3458,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3237,
+      "y": 9858,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 882,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2875,
+      "y": 9799,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2875,
+      "y": 9798,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2117,
+      "action": "Search"
+    }
+  },
+  {
+    "source": {
+      "x": 2875,
+      "y": 9798,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2875,
+      "y": 9799,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 2117,
+      "action": "Search"
+    }
+  },
+  {
+    "source": {
+      "x": 2893,
+      "y": 3507,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2893,
+      "y": 9907,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "HEROES_QUEST",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17384,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2893,
+      "y": 9907,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2893,
+      "y": 3507,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "HEROES_QUEST",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17387,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2840,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2840,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS",
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31756,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2911,
+      "y": 3226,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7958,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2909,
+      "y": 3230,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "IN_PROGRESS"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7958,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2911,
+      "y": 3226,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7967,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2578,
+      "y": 2837,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2909,
+      "y": 3230,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      },
+      "questRequirements": [
+        {
+          "quest": "THE_CORSAIR_CURSE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "NPC",
+    "data": {
+      "id": 7967,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 3229,
+      "y": 3108,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3483,
+      "y": 9510,
+      "plane": 2
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 4586,
+          "value": 0
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            954
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "ITEM_USE",
+    "data": {
+      "id": 3827
+    }
+  },
+  {
+    "source": {
+      "x": 1944,
+      "y": 2751,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1944,
+      "y": 2754,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60525,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1944,
+      "y": 2754,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1944,
+      "y": 2751,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60524,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1871,
+      "y": 3314,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1871,
+      "y": 3311,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60525,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 1871,
+      "y": 3311,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1871,
+      "y": 3314,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60524,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3187,
+      "y": 2365,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3187,
+      "y": 2368,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60525,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3187,
+      "y": 2368,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3187,
+      "y": 2365,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60524,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3060,
+      "y": 3000,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3063,
+      "y": 3000,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60523,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3063,
+      "y": 3000,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3060,
+      "y": 3000,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 60522,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2998,
+      "y": 3032,
+      "plane": 1
+    },
+    "destination": {
+      "x": 3001,
+      "y": 3032,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17397,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3001,
+      "y": 3032,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2998,
+      "y": 3032,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17396,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2291,
+      "y": 2796,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2321,
+      "y": 2779,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 18356,
+          "value": 1
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58639,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2321,
+      "y": 2779,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2291,
+      "y": 2796,
+      "plane": 0
+    },
+    "requirements": {
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 18356,
+          "value": 1
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58638,
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 1
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            1035,
+            1033
+          ],
+          "amount": 1,
+          "location": "EQUIPMENT",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31580,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2939,
+      "y": 3517,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31579,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58092,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3042,
+      "y": 9399,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3046,
+      "y": 2996,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 58093,
+      "action": "Exit"
+    }
+  },
+  {
+    "source": {
+      "x": 2549,
+      "y": 3031,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2545,
+      "y": 3031,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 71
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "WATCHTOWER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 40356,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2545,
+      "y": 3031,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2549,
+      "y": 3031,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 71
+        }
+      ],
+      "questRequirements": [
+        {
+          "quest": "WATCHTOWER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 40355,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 3104,
+      "y": 9573,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3615,
+      "y": 9470,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "TEMPLE_OF_THE_EYE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 43841,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3615,
+      "y": 9470,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3104,
+      "y": 9573,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      },
+      "questRequirements": [
+        {
+          "quest": "TEMPLE_OF_THE_EYE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ]
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 43692,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3238,
+      "y": 9499,
+      "plane": 2
+    },
+    "destination": {
+      "x": 3240,
+      "y": 9499,
+      "plane": 2
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 6672,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 1659,
+      "y": 3102,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1659,
+      "y": 3102,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 52614,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1659,
+      "y": 3102,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1659,
+      "y": 3102,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 52620,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1378,
+      "y": 3053,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1378,
+      "y": 9453,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56469,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1378,
+      "y": 9453,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1378,
+      "y": 3053,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 56468,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2532,
+      "y": 2833,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2529,
+      "y": 2835,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31735,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2529,
+      "y": 2835,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2532,
+      "y": 2833,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31735,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2555,
+      "y": 2857,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2555,
+      "y": 2854,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31733,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 2555,
+      "y": 2854,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2555,
+      "y": 2857,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31734,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 2523,
+      "y": 2860,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2012,
+      "y": 9004,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31791,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2012,
+      "y": 9004,
+      "plane": 1
+    },
+    "destination": {
+      "x": 2523,
+      "y": 2860,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 31790,
+      "action": "Climb"
+    }
   }
-
 ]
