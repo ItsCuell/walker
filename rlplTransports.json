@@ -122464,6 +122464,14 @@
       "plane": 1
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "A_KINGDOM_DIVIDED",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
