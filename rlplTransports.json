@@ -133517,5 +133517,51 @@
       "id": 31790,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 2927,
+      "y": 10353,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3039,
+      "y": 6417,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Heavy Door",
+      "id": 49513,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3039,
+      "y": 6417,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2927,
+      "y": 10353,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stairs",
+      "id": 49101,
+      "action": "Climb"
+    }
   }
 ]
