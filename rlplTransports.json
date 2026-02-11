@@ -92175,8 +92175,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "STRENGTH",
+          "level": 60
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -92197,8 +92203,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "STRENGTH",
+          "level": 60
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -92285,8 +92297,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 60
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
@@ -92297,7 +92315,7 @@
   {
     "source": {
       "x": 2904,
-      "y": 3720,
+      "y": 3720,0
       "plane": 0
     },
     "destination": {
@@ -92307,8 +92325,14 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
-      }
+        "member": true
+      },
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 60
+        }
+      ]
     },
     "type": "OBJECT",
     "data": {
