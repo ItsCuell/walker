@@ -133563,5 +133563,51 @@
       "id": 49101,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 1674,
+      "y": 3164,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1670,
+      "y": 3164,
+      "plane": 1
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 52626,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1670,
+      "y": 3164,
+      "plane": 1
+    },
+    "destination": {
+      "x": 1674,
+      "y": 3164,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 52627,
+      "action": "Climb-down"
+    }
   }
 ]
