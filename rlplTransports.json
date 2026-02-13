@@ -133651,5 +133651,129 @@
       "id": 52627,
       "action": "Climb-down"
     }
+  },
+  {
+    "source": {
+      "x": 3613,
+      "y": 9473,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2012,
+      "y": 6435,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 12384,
+      "name": "Catalytic Guardian",
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2012,
+      "y": 6435,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3615,
+      "y": 9477,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Abyssal Rift",
+      "id": 49204,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2029,
+      "y": 6430,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2035,
+      "y": 6430,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stepping Stone",
+      "id": 49209,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2035,
+      "y": 6430,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2029,
+      "y": 6430,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stepping Stone",
+      "id": 49209,
+      "action": "Cross"
+    }
   }
 ]
