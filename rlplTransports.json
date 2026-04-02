@@ -133775,5 +133775,539 @@
       "id": 49209,
       "action": "Cross"
     }
+  },
+  {
+    "source": {
+      "x": 3236,
+      "y": 3458,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3237,
+      "y": 9858,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 882,
+      "closedObjectId": 881,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3096,
+      "y": 3468,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3096,
+      "y": 9867,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1581,
+      "closedObjectId": 1579,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3405,
+      "y": 3506,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3405,
+      "y": 9906,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": { "member": true }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1581,
+      "closedObjectId": 1579,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3423,
+      "y": 3485,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3440,
+      "y": 9887,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 3433,
+      "closedObjectId": 3432,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3356,
+      "y": 2712,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3359,
+      "y": 9128,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "BENEATH_CURSED_SANDS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Entry",
+      "id": 44596,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 9128,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3356,
+      "y": 2712,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "BENEATH_CURSED_SANDS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Exit",
+      "id": 46087,
+      "action": "Leave"
+    }
+  },
+  {
+    "source": {
+      "x": 1389,
+      "y": 2918,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1388,
+      "y": 9313,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "CHILDREN_OF_THE_SUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 11335,
+          "value": 1
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "HERBLORE",
+          "level": 60
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 54946,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1388,
+      "y": 9313,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1389,
+      "y": 2918,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 54945,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1590,
+      "y": 9899,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1588,
+      "y": 9899,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26721,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1588,
+      "y": 9899,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1590,
+      "y": 9899,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26721,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1555,
+      "y": 9870,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1555,
+      "y": 9872,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1555,
+      "y": 9872,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1555,
+      "y": 9870,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1552,
+      "y": 9880,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1552,
+      "y": 9882,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1552,
+      "y": 9882,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1552,
+      "y": 9880,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3219,
+      "y": 9618,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3221,
+      "y": 9618,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720, 13280
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Hole",
+      "id": 6898,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 3221,
+      "y": 9618,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3219,
+      "y": 9618,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720, 13280
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Hole",
+      "id": 6899,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 3318,
+      "y": 9602,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2748,
+      "y": 5374,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720, 13280
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 6920,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 2748,
+      "y": 5374,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3318,
+      "y": 9602,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720, 13280
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Bone door",
+      "id": 22945,
+      "action": "Open"
+    }
   }
 ]
