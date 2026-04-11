@@ -122653,32 +122653,6 @@
   },
   {
     "source": {
-      "x": 2908,
-      "y": 3333,
-      "plane": 2
-    },
-    "destination": {
-      "x": 3217,
-      "y": 3176,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": true
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 5841,
-      "name": "Zandar Horfyre",
-      "action": "Talk-to",
-      "dialog": [
-        "No, I think I'll stay for a bit."
-      ]
-    }
-  },
-  {
-    "source": {
       "x": 2899,
       "y": 2942,
       "plane": 0
