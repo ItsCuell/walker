@@ -7961,7 +7961,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -8005,7 +8005,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -16734,7 +16734,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -16764,7 +16764,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -16794,7 +16794,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -16824,7 +16824,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -16854,7 +16854,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -16884,7 +16884,7 @@
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -17710,7 +17710,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "OBJECT",
@@ -78132,28 +78132,6 @@
   },
   {
     "source": {
-      "x": 3423,
-      "y": 3485,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3440,
-      "y": 9887,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 3433,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
       "x": 3408,
       "y": 3489,
       "plane": 0
@@ -104318,25 +104296,10 @@
       "itemRequirements": [
         {
           "ids": [
-            9804,
-            9805,
-            13280,
-            20720,
-            13140,
-            13139,
-            13138,
-            13137,
-            5014,
-            594,
-            33,
-            32,
-            4550,
-            4702,
-            9065,
-            4539,
-            4531,
-            4534,
-            4524
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
           ],
           "amount": 1,
           "location": "INVENTORY",
@@ -104368,15 +104331,10 @@
       "itemRequirements": [
         {
           "ids": [
-            9804,
-            9805,
-            13280,
-            20720,
-            13140,
-            13139,
-            13138,
-            13137,
-            5014
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
           ],
           "amount": 1,
           "location": "INVENTORY",
@@ -109592,16 +109550,29 @@
       "plane": 0
     },
     "requirements": {
-      "varRequirements": [
+      "questRequirements": [
         {
-          "comparison": "LESS_THAN",
-          "type": "VARBIT",
-          "var": 658,
-          "value": 13
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
         }
       ],
       "miscRequirements": {
-        "member": false
+        "member": true
       }
     },
     "type": "NPC",
@@ -122682,32 +122653,6 @@
   },
   {
     "source": {
-      "x": 2908,
-      "y": 3333,
-      "plane": 2
-    },
-    "destination": {
-      "x": 3217,
-      "y": 3176,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": true
-      }
-    },
-    "type": "NPC",
-    "data": {
-      "id": 5841,
-      "name": "Zandar Horfyre",
-      "action": "Talk-to",
-      "dialog": [
-        "No, I think I'll stay for a bit."
-      ]
-    }
-  },
-  {
-    "source": {
       "x": 2899,
       "y": 2942,
       "plane": 0
@@ -132462,28 +132407,6 @@
   },
   {
     "source": {
-      "x": 3236,
-      "y": 3458,
-      "plane": 0
-    },
-    "destination": {
-      "x": 3237,
-      "y": 9858,
-      "plane": 0
-    },
-    "requirements": {
-      "miscRequirements": {
-        "member": false
-      }
-    },
-    "type": "OBJECT",
-    "data": {
-      "id": 882,
-      "action": "Climb-down"
-    }
-  },
-  {
-    "source": {
       "x": 2875,
       "y": 9799,
       "plane": 0
@@ -133650,6 +133573,664 @@
       "name": "Staircase",
       "id": 52627,
       "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3613,
+      "y": 9473,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2012,
+      "y": 6435,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "NPC",
+    "data": {
+      "id": 12384,
+      "name": "Catalytic Guardian",
+      "action": "Travel"
+    }
+  },
+  {
+    "source": {
+      "x": 2012,
+      "y": 6435,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3615,
+      "y": 9477,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Abyssal Rift",
+      "id": 49204,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 2029,
+      "y": 6430,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2035,
+      "y": 6430,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stepping Stone",
+      "id": 49209,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 2035,
+      "y": 6430,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2029,
+      "y": 6430,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Stepping Stone",
+      "id": 49209,
+      "action": "Cross"
+    }
+  },
+  {
+    "source": {
+      "x": 3236,
+      "y": 3458,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3237,
+      "y": 9858,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 882,
+      "closedObjectId": 881,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3096,
+      "y": 3468,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3096,
+      "y": 9867,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1581,
+      "closedObjectId": 1579,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3405,
+      "y": 3506,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3405,
+      "y": 9906,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": { "member": true }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1581,
+      "closedObjectId": 1579,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3423,
+      "y": 3485,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3440,
+      "y": 9887,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 3433,
+      "closedObjectId": 3432,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3356,
+      "y": 2712,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3359,
+      "y": 9128,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "BENEATH_CURSED_SANDS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Entry",
+      "id": 44596,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 3359,
+      "y": 9128,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3356,
+      "y": 2712,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "BENEATH_CURSED_SANDS",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Exit",
+      "id": 46087,
+      "action": "Leave"
+    }
+  },
+  {
+    "source": {
+      "x": 1389,
+      "y": 2918,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1388,
+      "y": 9313,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "CHILDREN_OF_THE_SUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "varRequirements": [
+        {
+          "comparison": "EQUAL",
+          "type": "VARBIT",
+          "var": 11335,
+          "value": 1
+        }
+      ],
+      "skillRequirements": [
+        {
+          "skill": "HERBLORE",
+          "level": 60
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 54946,
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 1388,
+      "y": 9313,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1389,
+      "y": 2918,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Staircase",
+      "id": 54945,
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 1590,
+      "y": 9899,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1588,
+      "y": 9899,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26721,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1588,
+      "y": 9899,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1590,
+      "y": 9899,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26721,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1555,
+      "y": 9870,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1555,
+      "y": 9872,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1555,
+      "y": 9872,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1555,
+      "y": 9870,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1552,
+      "y": 9880,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1552,
+      "y": 9882,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 1552,
+      "y": 9882,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1552,
+      "y": 9880,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Root",
+      "id": 26720,
+      "action": "Step-over"
+    }
+  },
+  {
+    "source": {
+      "x": 3219,
+      "y": 9618,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3221,
+      "y": 9618,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Hole",
+      "id": 6898,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 3221,
+      "y": 9618,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3219,
+      "y": 9618,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Hole",
+      "id": 6899,
+      "action": "Squeeze-through"
+    }
+  },
+  {
+    "source": {
+      "x": 3318,
+      "y": 9602,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2748,
+      "y": 5374,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Door",
+      "id": 6920,
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 2748,
+      "y": 5374,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3318,
+      "y": 9602,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DEATH_TO_THE_DORGESHUUN",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "itemRequirements": [
+        {
+          "ids": [
+            594, 33, 32, 4534, 4531, 4524, 4539, 9804, 9805, 13280,
+            13342, 26826, 26828, 26830, 26832, 26834, 26836, 26838,
+            26840, 26842, 26844, 26846, 26848, 4702, 4550, 9065, 5013,
+            13137, 13138, 13139, 13140, 29777, 20720
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "OR"
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "name": "Bone door",
+      "id": 22945,
+      "action": "Open"
     }
   }
 ]
