@@ -133735,7 +133735,7 @@
     },
     "requirements": {
       "miscRequirements": {
-        "member": true
+        "member": false
       }
     },
     "type": "OBJECT",
@@ -133743,6 +133743,128 @@
       "id": 1581,
       "closedObjectId": 1579,
       "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3116,
+      "y": 3451,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3116,
+      "y": 9851,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            983
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17384,
+      "name": "Ladder",
+      "action": "Climb-down"
+    }
+  },
+  {
+    "source": {
+      "x": 3116,
+      "y": 9851,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3116,
+      "y": 3451,
+      "plane": 0
+    },
+    "requirements": {
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 17385,
+      "name": "Ladder",
+      "action": "Climb-up"
+    }
+  },
+  {
+    "source": {
+      "x": 3115,
+      "y": 3449,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3115,
+      "y": 3450,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            983
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1804,
+      "name": "Door",
+      "action": "Open"
+    }
+  },
+  {
+    "source": {
+      "x": 3115,
+      "y": 3450,
+      "plane": 0
+    },
+    "destination": {
+      "x": 3115,
+      "y": 3449,
+      "plane": 0
+    },
+    "requirements": {
+      "itemRequirements": [
+        {
+          "ids": [
+            983
+          ],
+          "amount": 1,
+          "location": "INVENTORY",
+          "reduction": "AND"
+        }
+      ],
+      "miscRequirements": {
+        "member": false
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 1804,
+      "name": "Door",
+      "action": "Open"
     }
   },
   {
