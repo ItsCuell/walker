@@ -135838,5 +135838,117 @@
       "id": 62424,
       "action": "Climb"
     }
+  },
+  {
+    "source": {
+      "x": 2556,
+      "y": 3075,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2556,
+      "y": 3074,
+      "plane": 1
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 69
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 62417,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2556,
+      "y": 3072,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2556,
+      "y": 3073,
+      "plane": 1
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 69
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 62417,
+      "action": "Climb"
+    }
+  },
+  {
+    "source": {
+      "x": 2874,
+      "y": 3142,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2874,
+      "y": 3127,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 78
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 62420,
+      "action": "Swim-to"
+    }
+  },
+  {
+    "source": {
+      "x": 2874,
+      "y": 3127,
+      "plane": 0
+    },
+    "destination": {
+      "x": 2874,
+      "y": 3142,
+      "plane": 0
+    },
+    "requirements": {
+      "skillRequirements": [
+        {
+          "skill": "AGILITY",
+          "level": 78
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 62420,
+      "action": "Swim-to"
+    }
   }
 ]
