@@ -135613,7 +135613,8 @@
     "data": {
       "id": 17069,
       "action": "Jump-to"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135641,7 +135642,8 @@
     "data": {
       "id": 17070,
       "action": "Jump-to"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135669,7 +135671,8 @@
     "data": {
       "id": 17049,
       "action": "Grapple"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135697,7 +135700,8 @@
     "data": {
       "id": 17051,
       "action": "Jump"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135725,7 +135729,8 @@
     "data": {
       "id": 17050,
       "action": "Grapple"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135753,7 +135758,8 @@
     "data": {
       "id": 17052,
       "action": "Jump"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135781,7 +135787,8 @@
     "data": {
       "id": 17062,
       "action": "Grapple"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135809,7 +135816,8 @@
     "data": {
       "id": 62423,
       "action": "Climb"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135837,7 +135845,8 @@
     "data": {
       "id": 62424,
       "action": "Climb"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135865,7 +135874,8 @@
     "data": {
       "id": 62417,
       "action": "Climb"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135893,7 +135903,8 @@
     "data": {
       "id": 62417,
       "action": "Climb"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135921,7 +135932,8 @@
     "data": {
       "id": 62420,
       "action": "Swim-to"
-    }
+    },
+    "maxAttemptDistance": 1
   },
   {
     "source": {
@@ -135949,6 +135961,7 @@
     "data": {
       "id": 62420,
       "action": "Swim-to"
-    }
+    },
+    "maxAttemptDistance": 1
   }
 ]
