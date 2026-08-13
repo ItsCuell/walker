@@ -42286,6 +42286,14 @@
       "plane": 0
     },
     "requirements": {
+      "questRequirements": [
+        {
+          "quest": "SINS_OF_THE_FATHER",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
       "miscRequirements": {
         "member": false
       }
