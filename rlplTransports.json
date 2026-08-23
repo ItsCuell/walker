@@ -123252,6 +123252,66 @@
   },
   {
     "source": {
+      "x": 1147,
+      "y": 3444,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1146,
+      "y": 3433,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 48745,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
+      "x": 1147,
+      "y": 3433,
+      "plane": 0
+    },
+    "destination": {
+      "x": 1149,
+      "y": 3444,
+      "plane": 0
+    },
+    "requirements": {
+      "questRequirements": [
+        {
+          "quest": "DESERT_TREASURE_II",
+          "states": [
+            "FINISHED"
+          ]
+        }
+      ],
+      "miscRequirements": {
+        "member": true
+      }
+    },
+    "type": "OBJECT",
+    "data": {
+      "id": 48746,
+      "action": "Enter"
+    }
+  },
+  {
+    "source": {
       "x": 2436,
       "y": 5121,
       "plane": 0
