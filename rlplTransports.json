@@ -3945,7 +3945,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2616,
-      "action": "Walk-Down"
+      "action": "Climb-down"
     }
   },
   {
@@ -3967,7 +3967,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -3989,7 +3989,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2616,
-      "action": "Walk-Down"
+      "action": "Climb-down"
     }
   },
   {
@@ -4011,7 +4011,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -4033,7 +4033,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -4055,7 +4055,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -4077,7 +4077,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -4099,7 +4099,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -4121,7 +4121,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -4143,7 +4143,7 @@
     "type": "OBJECT",
     "data": {
       "id": 2617,
-      "action": "Walk-Up"
+      "action": "Climb-up"
     }
   },
   {
@@ -103894,13 +103894,12 @@
           "reduction": "AND"
         }
       ],
-      "questRequirements": [
+      "varRequirements": [
         {
-          "quest": "PRINCE_ALI_RESCUE",
-          "states": [
-            "IN_PROGRESS",
-            "NOT_STARTED"
-          ]
+          "comparison": "LESS_THAN",
+          "type": "VARP",
+          "var": 273,
+          "value": 100
         }
       ],
       "miscRequirements": {
@@ -103935,13 +103934,12 @@
           "reduction": "AND"
         }
       ],
-      "questRequirements": [
+      "varRequirements": [
         {
-          "quest": "PRINCE_ALI_RESCUE",
-          "states": [
-            "IN_PROGRESS",
-            "NOT_STARTED"
-          ]
+          "comparison": "LESS_THAN",
+          "type": "VARP",
+          "var": 273,
+          "value": 100
         }
       ],
       "miscRequirements": {
@@ -103966,12 +103964,12 @@
       "plane": 0
     },
     "requirements": {
-      "questRequirements": [
+      "varRequirements": [
         {
-          "quest": "PRINCE_ALI_RESCUE",
-          "states": [
-            "FINISHED"
-          ]
+          "comparison": "GREATER_THAN_EQUAL",
+          "type": "VARP",
+          "var": 273,
+          "value": 100
         }
       ],
       "miscRequirements": {
@@ -103996,12 +103994,12 @@
       "plane": 0
     },
     "requirements": {
-      "questRequirements": [
+      "varRequirements": [
         {
-          "quest": "PRINCE_ALI_RESCUE",
-          "states": [
-            "FINISHED"
-          ]
+          "comparison": "GREATER_THAN_EQUAL",
+          "type": "VARP",
+          "var": 273,
+          "value": 100
         }
       ],
       "miscRequirements": {
